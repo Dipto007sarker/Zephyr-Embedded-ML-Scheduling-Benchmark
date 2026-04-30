@@ -1,0 +1,1349 @@
+-- west build: running target run
+[0/1] To exit from QEMU enter: 'CTRL+a, x'[QEMU] CPU: qemu32,+nx,+pae
+[0mSeaBIOS (version zephyr-v1.16.3-2-0-gf8da0cc-zephyr)
+Booting from ROM..
+*** Booting Zephyr OS build v4.4.0-1130-g3c36361caba4 ***
+Zephyr Magic Wand adaptive scheduling benchmark start
+Using synthetic accelerometer input
+
+[ML] run=1 repeats=1 total_cycles=1029088 avg_cycles=1029088 mode=NORMAL
+[RT] run=1 exec_ms=0 lateness_ms=0 gap_ms=0 misses=0 mode=NORMAL healthy_streak=1
+[ML] run=2 repeats=1 total_cycles=1174432 avg_cycles=1174432 mode=NORMAL
+[ML] run=3 repeats=1 total_cycles=1361856 avg_cycles=1361856 mode=NORMAL
+[ML] run=4 repeats=1 total_cycles=1329632 avg_cycles=1329632 mode=NORMAL
+[ML] run=5 repeats=1 total_cycles=1372832 avg_cycles=1372832 mode=NORMAL
+[ML] run=6 repeats=1 total_cycles=1524832 avg_cycles=1524832 mode=NORMAL
+[ML] run=7 repeats=1 total_cycles=1570368 avg_cycles=1570368 mode=NORMAL
+[ML] run=8 repeats=1 total_cycles=1595744 avg_cycles=1595744 mode=NORMAL
+[ML] run=9 repeats=1 total_cycles=1574304 avg_cycles=1574304 mode=NORMAL
+[ML] run=10 repeats=1 total_cycles=1565056 avg_cycles=1565056 mode=NORMAL
+[ML] run=11 repeats=1 total_cycles=1600736 avg_cycles=1600736 mode=NORMAL
+[ML] run=12 repeats=1 total_cycles=1613280 avg_cycles=1613280 mode=NORMAL
+[ML] run=13 repeats=1 total_cycles=1643040 avg_cycles=1643040 mode=NORMAL
+[ML] run=14 repeats=1 total_cycles=1606944 avg_cycles=1606944 mode=NORMAL
+[RT] run=2 exec_ms=0 lateness_ms=10 gap_ms=410 misses=0 mode=NORMAL healthy_streak=2
+[ML] run=15 repeats=1 total_cycles=1597504 avg_cycles=1597504 mode=NORMAL
+[ML] run=16 repeats=1 total_cycles=1593664 avg_cycles=1593664 mode=NORMAL
+[ML] run=17 repeats=1 total_cycles=1600096 avg_cycles=1600096 mode=NORMAL
+[ML] run=18 repeats=1 total_cycles=1577664 avg_cycles=1577664 mode=NORMAL
+[ML] run=19 repeats=1 total_cycles=1639904 avg_cycles=1639904 mode=NORMAL
+[ML] run=20 repeats=1 total_cycles=617161312 avg_cycles=617161312 mode=NORMAL
+[RT] run=3 exec_ms=10 lateness_ms=580 gap_ms=770 misses=1 mode=PROTECT healthy_streak=0
+[ML] run=21 repeats=1 total_cycles=618884736 avg_cycles=618884736 mode=PROTECT
+[RT] run=4 exec_ms=10 lateness_ms=620 gap_ms=640 misses=2 mode=PROTECT healthy_streak=0
+[ML] run=22 repeats=1 total_cycles=620678208 avg_cycles=620678208 mode=PROTECT
+[RT] run=5 exec_ms=0 lateness_ms=550 gap_ms=730 misses=3 mode=PROTECT healthy_streak=0
+[RT] run=6 exec_ms=0 lateness_ms=10 gap_ms=60 misses=3 mode=PROTECT healthy_streak=1
+[ML] run=23 repeats=1 total_cycles=622286944 avg_cycles=622286944 mode=PROTECT
+[RT] run=7 exec_ms=0 lateness_ms=480 gap_ms=670 misses=4 mode=PROTECT healthy_streak=0
+[ML] run=24 repeats=1 total_cycles=624032000 avg_cycles=624032000 mode=PROTECT
+[RT] run=8 exec_ms=0 lateness_ms=610 gap_ms=730 misses=5 mode=PROTECT healthy_streak=0
+[ML] run=25 repeats=1 total_cycles=625754112 avg_cycles=625754112 mode=PROTECT
+[RT] run=9 exec_ms=10 lateness_ms=540 gap_ms=730 misses=6 mode=PROTECT healthy_streak=0
+[RT] run=10 exec_ms=0 lateness_ms=10 gap_ms=70 misses=6 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=25 rt_runs=10 rt_misses=6 mode=PROTECT healthy_streak=1
+[ML] run=26 repeats=1 total_cycles=626920864 avg_cycles=626920864 mode=PROTECT
+[RT] run=11 exec_ms=10 lateness_ms=470 gap_ms=660 misses=7 mode=PROTECT healthy_streak=0
+[ML] run=27 repeats=1 total_cycles=626714016 avg_cycles=626714016 mode=PROTECT
+[RT] run=12 exec_ms=10 lateness_ms=600 gap_ms=730 misses=8 mode=PROTECT healthy_streak=0
+[ML] run=28 repeats=1 total_cycles=626806016 avg_cycles=626806016 mode=PROTECT
+[RT] run=13 exec_ms=10 lateness_ms=530 gap_ms=730 misses=9 mode=PROTECT healthy_streak=0
+[RT] run=14 exec_ms=0 lateness_ms=10 gap_ms=80 misses=9 mode=PROTECT healthy_streak=1
+[ML] run=29 repeats=1 total_cycles=626693088 avg_cycles=626693088 mode=PROTECT
+[RT] run=15 exec_ms=10 lateness_ms=460 gap_ms=650 misses=10 mode=PROTECT healthy_streak=0
+[ML] run=30 repeats=1 total_cycles=626707840 avg_cycles=626707840 mode=PROTECT
+[RT] run=16 exec_ms=10 lateness_ms=590 gap_ms=730 misses=11 mode=PROTECT healthy_streak=0
+[ML] run=31 repeats=1 total_cycles=626672128 avg_cycles=626672128 mode=PROTECT
+[RT] run=17 exec_ms=10 lateness_ms=520 gap_ms=730 misses=12 mode=PROTECT healthy_streak=0
+[RT] run=18 exec_ms=0 lateness_ms=10 gap_ms=90 misses=12 mode=PROTECT healthy_streak=1
+[ML] run=32 repeats=1 total_cycles=626705728 avg_cycles=626705728 mode=PROTECT
+[RT] run=19 exec_ms=10 lateness_ms=450 gap_ms=640 misses=13 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=32 rt_runs=19 rt_misses=13 mode=PROTECT healthy_streak=0
+[ML] run=33 repeats=1 total_cycles=626995200 avg_cycles=626995200 mode=PROTECT
+[RT] run=20 exec_ms=10 lateness_ms=580 gap_ms=730 misses=14 mode=PROTECT healthy_streak=0
+[RT] run=21 exec_ms=0 lateness_ms=10 gap_ms=30 misses=14 mode=PROTECT healthy_streak=1
+[ML] run=34 repeats=1 total_cycles=626687296 avg_cycles=626687296 mode=PROTECT
+[RT] run=22 exec_ms=10 lateness_ms=510 gap_ms=700 misses=15 mode=PROTECT healthy_streak=0
+[RT] run=23 exec_ms=0 lateness_ms=10 gap_ms=100 misses=15 mode=PROTECT healthy_streak=1
+[ML] run=35 repeats=1 total_cycles=626678400 avg_cycles=626678400 mode=PROTECT
+[RT] run=24 exec_ms=10 lateness_ms=440 gap_ms=630 misses=16 mode=PROTECT healthy_streak=0
+[ML] run=36 repeats=1 total_cycles=626627744 avg_cycles=626627744 mode=PROTECT
+[RT] run=25 exec_ms=10 lateness_ms=570 gap_ms=730 misses=17 mode=PROTECT healthy_streak=0
+[RT] run=26 exec_ms=0 lateness_ms=10 gap_ms=40 misses=17 mode=PROTECT healthy_streak=1
+[ML] run=37 repeats=1 total_cycles=626732896 avg_cycles=626732896 mode=PROTECT
+[RT] run=27 exec_ms=10 lateness_ms=500 gap_ms=690 misses=18 mode=PROTECT healthy_streak=0
+[ML] run=38 repeats=1 total_cycles=626733952 avg_cycles=626733952 mode=PROTECT
+[RT] run=28 exec_ms=10 lateness_ms=630 gap_ms=730 misses=19 mode=PROTECT healthy_streak=0
+[ML] run=39 repeats=1 total_cycles=626817216 avg_cycles=626817216 mode=PROTECT
+[RT] run=29 exec_ms=10 lateness_ms=560 gap_ms=730 misses=20 mode=PROTECT healthy_streak=0
+[RT] run=30 exec_ms=0 lateness_ms=10 gap_ms=50 misses=20 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=39 rt_runs=30 rt_misses=20 mode=PROTECT healthy_streak=1
+[ML] run=40 repeats=1 total_cycles=626741632 avg_cycles=626741632 mode=PROTECT
+[RT] run=31 exec_ms=10 lateness_ms=490 gap_ms=680 misses=21 mode=PROTECT healthy_streak=0
+[ML] run=41 repeats=1 total_cycles=626809376 avg_cycles=626809376 mode=PROTECT
+[RT] run=32 exec_ms=10 lateness_ms=620 gap_ms=730 misses=22 mode=PROTECT healthy_streak=0
+[ML] run=42 repeats=1 total_cycles=626758432 avg_cycles=626758432 mode=PROTECT
+[RT] run=33 exec_ms=10 lateness_ms=550 gap_ms=730 misses=23 mode=PROTECT healthy_streak=0
+[RT] run=34 exec_ms=0 lateness_ms=10 gap_ms=60 misses=23 mode=PROTECT healthy_streak=1
+[ML] run=43 repeats=1 total_cycles=626800992 avg_cycles=626800992 mode=PROTECT
+[RT] run=35 exec_ms=10 lateness_ms=480 gap_ms=670 misses=24 mode=PROTECT healthy_streak=0
+[ML] run=44 repeats=1 total_cycles=626735872 avg_cycles=626735872 mode=PROTECT
+[RT] run=36 exec_ms=10 lateness_ms=610 gap_ms=730 misses=25 mode=PROTECT healthy_streak=0
+[ML] run=45 repeats=1 total_cycles=626781504 avg_cycles=626781504 mode=PROTECT
+[RT] run=37 exec_ms=10 lateness_ms=540 gap_ms=730 misses=26 mode=PROTECT healthy_streak=0
+[RT] run=38 exec_ms=0 lateness_ms=10 gap_ms=70 misses=26 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=45 rt_runs=38 rt_misses=26 mode=PROTECT healthy_streak=1
+[ML] run=46 repeats=1 total_cycles=627080416 avg_cycles=627080416 mode=PROTECT
+[RT] run=39 exec_ms=10 lateness_ms=470 gap_ms=660 misses=27 mode=PROTECT healthy_streak=0
+[ML] run=47 repeats=1 total_cycles=626745504 avg_cycles=626745504 mode=PROTECT
+[RT] run=40 exec_ms=10 lateness_ms=600 gap_ms=730 misses=28 mode=PROTECT healthy_streak=0
+[ML] run=48 repeats=1 total_cycles=626758688 avg_cycles=626758688 mode=PROTECT
+[RT] run=41 exec_ms=10 lateness_ms=530 gap_ms=730 misses=29 mode=PROTECT healthy_streak=0
+[RT] run=42 exec_ms=0 lateness_ms=10 gap_ms=80 misses=29 mode=PROTECT healthy_streak=1
+[ML] run=49 repeats=1 total_cycles=626718176 avg_cycles=626718176 mode=PROTECT
+[RT] run=43 exec_ms=10 lateness_ms=460 gap_ms=650 misses=30 mode=PROTECT healthy_streak=0
+[ML] run=50 repeats=1 total_cycles=626796704 avg_cycles=626796704 mode=PROTECT
+[RT] run=44 exec_ms=10 lateness_ms=590 gap_ms=730 misses=31 mode=PROTECT healthy_streak=0
+[ML] run=51 repeats=1 total_cycles=626670080 avg_cycles=626670080 mode=PROTECT
+[RT] run=45 exec_ms=10 lateness_ms=520 gap_ms=730 misses=32 mode=PROTECT healthy_streak=0
+[RT] run=46 exec_ms=0 lateness_ms=10 gap_ms=90 misses=32 mode=PROTECT healthy_streak=1
+[ML] run=52 repeats=1 total_cycles=626687840 avg_cycles=626687840 mode=PROTECT
+[RT] run=47 exec_ms=10 lateness_ms=450 gap_ms=640 misses=33 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=52 rt_runs=47 rt_misses=33 mode=PROTECT healthy_streak=0
+[ML] run=53 repeats=1 total_cycles=627002656 avg_cycles=627002656 mode=PROTECT
+[RT] run=48 exec_ms=10 lateness_ms=580 gap_ms=730 misses=34 mode=PROTECT healthy_streak=0
+[RT] run=49 exec_ms=0 lateness_ms=10 gap_ms=30 misses=34 mode=PROTECT healthy_streak=1
+[ML] run=54 repeats=1 total_cycles=626684864 avg_cycles=626684864 mode=PROTECT
+[RT] run=50 exec_ms=10 lateness_ms=510 gap_ms=700 misses=35 mode=PROTECT healthy_streak=0
+[RT] run=51 exec_ms=0 lateness_ms=10 gap_ms=100 misses=35 mode=PROTECT healthy_streak=1
+[ML] run=55 repeats=1 total_cycles=626700352 avg_cycles=626700352 mode=PROTECT
+[RT] run=52 exec_ms=10 lateness_ms=440 gap_ms=630 misses=36 mode=PROTECT healthy_streak=0
+[ML] run=56 repeats=1 total_cycles=626678976 avg_cycles=626678976 mode=PROTECT
+[RT] run=53 exec_ms=10 lateness_ms=570 gap_ms=730 misses=37 mode=PROTECT healthy_streak=0
+[RT] run=54 exec_ms=0 lateness_ms=10 gap_ms=40 misses=37 mode=PROTECT healthy_streak=1
+[ML] run=57 repeats=1 total_cycles=626736800 avg_cycles=626736800 mode=PROTECT
+[RT] run=55 exec_ms=10 lateness_ms=500 gap_ms=690 misses=38 mode=PROTECT healthy_streak=0
+[ML] run=58 repeats=1 total_cycles=626753216 avg_cycles=626753216 mode=PROTECT
+[RT] run=56 exec_ms=10 lateness_ms=630 gap_ms=730 misses=39 mode=PROTECT healthy_streak=0
+[ML] run=59 repeats=1 total_cycles=626712992 avg_cycles=626712992 mode=PROTECT
+[RT] run=57 exec_ms=10 lateness_ms=560 gap_ms=730 misses=40 mode=PROTECT healthy_streak=0
+[RT] run=58 exec_ms=0 lateness_ms=10 gap_ms=50 misses=40 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=59 rt_runs=58 rt_misses=40 mode=PROTECT healthy_streak=1
+[ML] run=60 repeats=1 total_cycles=627039712 avg_cycles=627039712 mode=PROTECT
+[RT] run=59 exec_ms=10 lateness_ms=490 gap_ms=680 misses=41 mode=PROTECT healthy_streak=0
+[ML] run=61 repeats=1 total_cycles=626838080 avg_cycles=626838080 mode=PROTECT
+[RT] run=60 exec_ms=10 lateness_ms=620 gap_ms=730 misses=42 mode=PROTECT healthy_streak=0
+[ML] run=62 repeats=1 total_cycles=626745088 avg_cycles=626745088 mode=PROTECT
+[RT] run=61 exec_ms=10 lateness_ms=550 gap_ms=730 misses=43 mode=PROTECT healthy_streak=0
+[RT] run=62 exec_ms=0 lateness_ms=10 gap_ms=60 misses=43 mode=PROTECT healthy_streak=1
+[ML] run=63 repeats=1 total_cycles=626667136 avg_cycles=626667136 mode=PROTECT
+[RT] run=63 exec_ms=10 lateness_ms=480 gap_ms=670 misses=44 mode=PROTECT healthy_streak=0
+[ML] run=64 repeats=1 total_cycles=626814688 avg_cycles=626814688 mode=PROTECT
+[RT] run=64 exec_ms=10 lateness_ms=610 gap_ms=730 misses=45 mode=PROTECT healthy_streak=0
+[ML] run=65 repeats=1 total_cycles=626771552 avg_cycles=626771552 mode=PROTECT
+[RT] run=65 exec_ms=10 lateness_ms=540 gap_ms=730 misses=46 mode=PROTECT healthy_streak=0
+[RT] run=66 exec_ms=0 lateness_ms=10 gap_ms=70 misses=46 mode=PROTECT healthy_streak=1
+[ML] run=66 repeats=1 total_cycles=626840640 avg_cycles=626840640 mode=PROTECT
+[RT] run=67 exec_ms=10 lateness_ms=470 gap_ms=660 misses=47 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=66 rt_runs=67 rt_misses=47 mode=PROTECT healthy_streak=0
+[ML] run=67 repeats=1 total_cycles=627105088 avg_cycles=627105088 mode=PROTECT
+[RT] run=68 exec_ms=10 lateness_ms=600 gap_ms=730 misses=48 mode=PROTECT healthy_streak=0
+[ML] run=68 repeats=1 total_cycles=626779168 avg_cycles=626779168 mode=PROTECT
+[RT] run=69 exec_ms=10 lateness_ms=530 gap_ms=730 misses=49 mode=PROTECT healthy_streak=0
+[RT] run=70 exec_ms=0 lateness_ms=10 gap_ms=80 misses=49 mode=PROTECT healthy_streak=1
+[ML] run=69 repeats=1 total_cycles=626774432 avg_cycles=626774432 mode=PROTECT
+[RT] run=71 exec_ms=10 lateness_ms=460 gap_ms=650 misses=50 mode=PROTECT healthy_streak=0
+[ML] run=70 repeats=1 total_cycles=626804416 avg_cycles=626804416 mode=PROTECT
+[RT] run=72 exec_ms=10 lateness_ms=590 gap_ms=730 misses=51 mode=PROTECT healthy_streak=0
+[ML] run=71 repeats=1 total_cycles=626841344 avg_cycles=626841344 mode=PROTECT
+[RT] run=73 exec_ms=10 lateness_ms=520 gap_ms=730 misses=52 mode=PROTECT healthy_streak=0
+[RT] run=74 exec_ms=0 lateness_ms=10 gap_ms=90 misses=52 mode=PROTECT healthy_streak=1
+[ML] run=72 repeats=1 total_cycles=626828192 avg_cycles=626828192 mode=PROTECT
+[RT] run=75 exec_ms=10 lateness_ms=450 gap_ms=640 misses=53 mode=PROTECT healthy_streak=0
+[ML] run=73 repeats=1 total_cycles=626881184 avg_cycles=626881184 mode=PROTECT
+[RT] run=76 exec_ms=10 lateness_ms=580 gap_ms=730 misses=54 mode=PROTECT healthy_streak=0
+[RT] run=77 exec_ms=0 lateness_ms=10 gap_ms=30 misses=54 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=73 rt_runs=77 rt_misses=54 mode=PROTECT healthy_streak=1
+[ML] run=74 repeats=1 total_cycles=627570560 avg_cycles=627570560 mode=PROTECT
+[RT] run=78 exec_ms=10 lateness_ms=510 gap_ms=700 misses=55 mode=PROTECT healthy_streak=0
+[RT] run=79 exec_ms=0 lateness_ms=10 gap_ms=100 misses=55 mode=PROTECT healthy_streak=1
+[ML] run=75 repeats=1 total_cycles=627203104 avg_cycles=627203104 mode=PROTECT
+[RT] run=80 exec_ms=10 lateness_ms=440 gap_ms=630 misses=56 mode=PROTECT healthy_streak=0
+[ML] run=76 repeats=1 total_cycles=627359648 avg_cycles=627359648 mode=PROTECT
+[RT] run=81 exec_ms=10 lateness_ms=570 gap_ms=730 misses=57 mode=PROTECT healthy_streak=0
+[RT] run=82 exec_ms=0 lateness_ms=10 gap_ms=40 misses=57 mode=PROTECT healthy_streak=1
+[ML] run=77 repeats=1 total_cycles=627299584 avg_cycles=627299584 mode=PROTECT
+[RT] run=83 exec_ms=10 lateness_ms=500 gap_ms=690 misses=58 mode=PROTECT healthy_streak=0
+[ML] run=78 repeats=1 total_cycles=626922624 avg_cycles=626922624 mode=PROTECT
+[RT] run=84 exec_ms=10 lateness_ms=630 gap_ms=730 misses=59 mode=PROTECT healthy_streak=0
+[ML] run=79 repeats=1 total_cycles=626834464 avg_cycles=626834464 mode=PROTECT
+[RT] run=85 exec_ms=10 lateness_ms=560 gap_ms=730 misses=60 mode=PROTECT healthy_streak=0
+[RT] run=86 exec_ms=0 lateness_ms=10 gap_ms=50 misses=60 mode=PROTECT healthy_streak=1
+[ML] run=80 repeats=1 total_cycles=626796480 avg_cycles=626796480 mode=PROTECT
+[RT] run=87 exec_ms=10 lateness_ms=490 gap_ms=680 misses=61 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=80 rt_runs=87 rt_misses=61 mode=PROTECT healthy_streak=0
+[ML] run=81 repeats=1 total_cycles=627111264 avg_cycles=627111264 mode=PROTECT
+[RT] run=88 exec_ms=10 lateness_ms=620 gap_ms=730 misses=62 mode=PROTECT healthy_streak=0
+[ML] run=82 repeats=1 total_cycles=626840928 avg_cycles=626840928 mode=PROTECT
+[RT] run=89 exec_ms=10 lateness_ms=550 gap_ms=730 misses=63 mode=PROTECT healthy_streak=0
+[RT] run=90 exec_ms=0 lateness_ms=10 gap_ms=60 misses=63 mode=PROTECT healthy_streak=1
+[ML] run=83 repeats=1 total_cycles=626815936 avg_cycles=626815936 mode=PROTECT
+[RT] run=91 exec_ms=10 lateness_ms=480 gap_ms=670 misses=64 mode=PROTECT healthy_streak=0
+[ML] run=84 repeats=1 total_cycles=626858112 avg_cycles=626858112 mode=PROTECT
+[RT] run=92 exec_ms=10 lateness_ms=610 gap_ms=730 misses=65 mode=PROTECT healthy_streak=0
+[ML] run=85 repeats=1 total_cycles=626810368 avg_cycles=626810368 mode=PROTECT
+[RT] run=93 exec_ms=10 lateness_ms=540 gap_ms=730 misses=66 mode=PROTECT healthy_streak=0
+[RT] run=94 exec_ms=0 lateness_ms=10 gap_ms=70 misses=66 mode=PROTECT healthy_streak=1
+[ML] run=86 repeats=1 total_cycles=626740800 avg_cycles=626740800 mode=PROTECT
+[RT] run=95 exec_ms=10 lateness_ms=470 gap_ms=660 misses=67 mode=PROTECT healthy_streak=0
+[ML] run=87 repeats=1 total_cycles=626739008 avg_cycles=626739008 mode=PROTECT
+[RT] run=96 exec_ms=10 lateness_ms=600 gap_ms=730 misses=68 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=87 rt_runs=96 rt_misses=68 mode=PROTECT healthy_streak=0
+[ML] run=88 repeats=1 total_cycles=626719584 avg_cycles=626719584 mode=PROTECT
+[RT] run=97 exec_ms=10 lateness_ms=530 gap_ms=730 misses=69 mode=PROTECT healthy_streak=0
+[RT] run=98 exec_ms=0 lateness_ms=10 gap_ms=80 misses=69 mode=PROTECT healthy_streak=1
+[ML] run=89 repeats=1 total_cycles=626671520 avg_cycles=626671520 mode=PROTECT
+[RT] run=99 exec_ms=10 lateness_ms=460 gap_ms=650 misses=70 mode=PROTECT healthy_streak=0
+[ML] run=90 repeats=1 total_cycles=626669120 avg_cycles=626669120 mode=PROTECT
+[RT] run=100 exec_ms=10 lateness_ms=590 gap_ms=730 misses=71 mode=PROTECT healthy_streak=0
+[ML] run=91 repeats=1 total_cycles=626752640 avg_cycles=626752640 mode=PROTECT
+[RT] run=101 exec_ms=10 lateness_ms=520 gap_ms=730 misses=72 mode=PROTECT healthy_streak=0
+[RT] run=102 exec_ms=0 lateness_ms=10 gap_ms=90 misses=72 mode=PROTECT healthy_streak=1
+[ML] run=92 repeats=1 total_cycles=626762816 avg_cycles=626762816 mode=PROTECT
+[RT] run=103 exec_ms=10 lateness_ms=450 gap_ms=640 misses=73 mode=PROTECT healthy_streak=0
+[ML] run=93 repeats=1 total_cycles=626810528 avg_cycles=626810528 mode=PROTECT
+[RT] run=104 exec_ms=10 lateness_ms=580 gap_ms=730 misses=74 mode=PROTECT healthy_streak=0
+[RT] run=105 exec_ms=0 lateness_ms=10 gap_ms=30 misses=74 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=93 rt_runs=105 rt_misses=74 mode=PROTECT healthy_streak=1
+[ML] run=94 repeats=1 total_cycles=627227232 avg_cycles=627227232 mode=PROTECT
+[RT] run=106 exec_ms=10 lateness_ms=510 gap_ms=700 misses=75 mode=PROTECT healthy_streak=0
+[RT] run=107 exec_ms=0 lateness_ms=10 gap_ms=100 misses=75 mode=PROTECT healthy_streak=1
+[ML] run=95 repeats=1 total_cycles=626898336 avg_cycles=626898336 mode=PROTECT
+[RT] run=108 exec_ms=10 lateness_ms=440 gap_ms=630 misses=76 mode=PROTECT healthy_streak=0
+[ML] run=96 repeats=1 total_cycles=626873376 avg_cycles=626873376 mode=PROTECT
+[RT] run=109 exec_ms=10 lateness_ms=570 gap_ms=730 misses=77 mode=PROTECT healthy_streak=0
+[RT] run=110 exec_ms=0 lateness_ms=10 gap_ms=40 misses=77 mode=PROTECT healthy_streak=1
+[ML] run=97 repeats=1 total_cycles=626872352 avg_cycles=626872352 mode=PROTECT
+[RT] run=111 exec_ms=10 lateness_ms=500 gap_ms=690 misses=78 mode=PROTECT healthy_streak=0
+[ML] run=98 repeats=1 total_cycles=626835104 avg_cycles=626835104 mode=PROTECT
+[RT] run=112 exec_ms=10 lateness_ms=630 gap_ms=730 misses=79 mode=PROTECT healthy_streak=0
+[ML] run=99 repeats=1 total_cycles=626792768 avg_cycles=626792768 mode=PROTECT
+[RT] run=113 exec_ms=10 lateness_ms=560 gap_ms=730 misses=80 mode=PROTECT healthy_streak=0
+[RT] run=114 exec_ms=0 lateness_ms=10 gap_ms=50 misses=80 mode=PROTECT healthy_streak=1
+[ML] run=100 repeats=1 total_cycles=626815520 avg_cycles=626815520 mode=PROTECT
+[RT] run=115 exec_ms=10 lateness_ms=490 gap_ms=680 misses=81 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=100 rt_runs=115 rt_misses=81 mode=PROTECT healthy_streak=0
+[ML] run=101 repeats=1 total_cycles=627047040 avg_cycles=627047040 mode=PROTECT
+[RT] run=116 exec_ms=10 lateness_ms=620 gap_ms=730 misses=82 mode=PROTECT healthy_streak=0
+[ML] run=102 repeats=1 total_cycles=626789824 avg_cycles=626789824 mode=PROTECT
+[RT] run=117 exec_ms=10 lateness_ms=550 gap_ms=730 misses=83 mode=PROTECT healthy_streak=0
+[RT] run=118 exec_ms=0 lateness_ms=10 gap_ms=60 misses=83 mode=PROTECT healthy_streak=1
+[ML] run=103 repeats=1 total_cycles=626745888 avg_cycles=626745888 mode=PROTECT
+[RT] run=119 exec_ms=10 lateness_ms=480 gap_ms=670 misses=84 mode=PROTECT healthy_streak=0
+[ML] run=104 repeats=1 total_cycles=626778016 avg_cycles=626778016 mode=PROTECT
+[RT] run=120 exec_ms=10 lateness_ms=610 gap_ms=730 misses=85 mode=PROTECT healthy_streak=0
+[ML] run=105 repeats=1 total_cycles=626816352 avg_cycles=626816352 mode=PROTECT
+[RT] run=121 exec_ms=10 lateness_ms=540 gap_ms=730 misses=86 mode=PROTECT healthy_streak=0
+[RT] run=122 exec_ms=0 lateness_ms=10 gap_ms=70 misses=86 mode=PROTECT healthy_streak=1
+[ML] run=106 repeats=1 total_cycles=626787584 avg_cycles=626787584 mode=PROTECT
+[RT] run=123 exec_ms=10 lateness_ms=470 gap_ms=660 misses=87 mode=PROTECT healthy_streak=0
+[ML] run=107 repeats=1 total_cycles=626791232 avg_cycles=626791232 mode=PROTECT
+[RT] run=124 exec_ms=10 lateness_ms=600 gap_ms=730 misses=88 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=107 rt_runs=124 rt_misses=88 mode=PROTECT healthy_streak=0
+[ML] run=108 repeats=1 total_cycles=627120704 avg_cycles=627120704 mode=PROTECT
+[RT] run=125 exec_ms=10 lateness_ms=530 gap_ms=730 misses=89 mode=PROTECT healthy_streak=0
+[RT] run=126 exec_ms=0 lateness_ms=10 gap_ms=80 misses=89 mode=PROTECT healthy_streak=1
+[ML] run=109 repeats=1 total_cycles=626806272 avg_cycles=626806272 mode=PROTECT
+[RT] run=127 exec_ms=10 lateness_ms=460 gap_ms=650 misses=90 mode=PROTECT healthy_streak=0
+[ML] run=110 repeats=1 total_cycles=626692832 avg_cycles=626692832 mode=PROTECT
+[RT] run=128 exec_ms=10 lateness_ms=590 gap_ms=730 misses=91 mode=PROTECT healthy_streak=0
+[ML] run=111 repeats=1 total_cycles=626774560 avg_cycles=626774560 mode=PROTECT
+[RT] run=129 exec_ms=10 lateness_ms=520 gap_ms=730 misses=92 mode=PROTECT healthy_streak=0
+[RT] run=130 exec_ms=0 lateness_ms=10 gap_ms=90 misses=92 mode=PROTECT healthy_streak=1
+[ML] run=112 repeats=1 total_cycles=626788864 avg_cycles=626788864 mode=PROTECT
+[RT] run=131 exec_ms=10 lateness_ms=450 gap_ms=640 misses=93 mode=PROTECT healthy_streak=0
+[ML] run=113 repeats=1 total_cycles=626832192 avg_cycles=626832192 mode=PROTECT
+[RT] run=132 exec_ms=10 lateness_ms=580 gap_ms=730 misses=94 mode=PROTECT healthy_streak=0
+[RT] run=133 exec_ms=0 lateness_ms=10 gap_ms=30 misses=94 mode=PROTECT healthy_streak=1
+[ML] run=114 repeats=1 total_cycles=626808160 avg_cycles=626808160 mode=PROTECT
+[RT] run=134 exec_ms=10 lateness_ms=510 gap_ms=700 misses=95 mode=PROTECT healthy_streak=0
+[RT] run=135 exec_ms=0 lateness_ms=10 gap_ms=100 misses=95 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=114 rt_runs=135 rt_misses=95 mode=PROTECT healthy_streak=1
+[ML] run=115 repeats=1 total_cycles=627165856 avg_cycles=627165856 mode=PROTECT
+[RT] run=136 exec_ms=10 lateness_ms=440 gap_ms=630 misses=96 mode=PROTECT healthy_streak=0
+[ML] run=116 repeats=1 total_cycles=626806368 avg_cycles=626806368 mode=PROTECT
+[RT] run=137 exec_ms=10 lateness_ms=570 gap_ms=730 misses=97 mode=PROTECT healthy_streak=0
+[RT] run=138 exec_ms=0 lateness_ms=10 gap_ms=40 misses=97 mode=PROTECT healthy_streak=1
+[ML] run=117 repeats=1 total_cycles=626848512 avg_cycles=626848512 mode=PROTECT
+[RT] run=139 exec_ms=10 lateness_ms=500 gap_ms=690 misses=98 mode=PROTECT healthy_streak=0
+[ML] run=118 repeats=1 total_cycles=626838304 avg_cycles=626838304 mode=PROTECT
+[RT] run=140 exec_ms=10 lateness_ms=630 gap_ms=730 misses=99 mode=PROTECT healthy_streak=0
+[ML] run=119 repeats=1 total_cycles=626768512 avg_cycles=626768512 mode=PROTECT
+[RT] run=141 exec_ms=10 lateness_ms=560 gap_ms=730 misses=100 mode=PROTECT healthy_streak=0
+[RT] run=142 exec_ms=0 lateness_ms=10 gap_ms=50 misses=100 mode=PROTECT healthy_streak=1
+[ML] run=120 repeats=1 total_cycles=626709344 avg_cycles=626709344 mode=PROTECT
+[RT] run=143 exec_ms=10 lateness_ms=490 gap_ms=680 misses=101 mode=PROTECT healthy_streak=0
+[ML] run=121 repeats=1 total_cycles=626749792 avg_cycles=626749792 mode=PROTECT
+[RT] run=144 exec_ms=10 lateness_ms=620 gap_ms=730 misses=102 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=121 rt_runs=144 rt_misses=102 mode=PROTECT healthy_streak=0
+[ML] run=122 repeats=1 total_cycles=627121216 avg_cycles=627121216 mode=PROTECT
+[RT] run=145 exec_ms=10 lateness_ms=550 gap_ms=730 misses=103 mode=PROTECT healthy_streak=0
+[RT] run=146 exec_ms=0 lateness_ms=10 gap_ms=60 misses=103 mode=PROTECT healthy_streak=1
+[ML] run=123 repeats=1 total_cycles=626766016 avg_cycles=626766016 mode=PROTECT
+[RT] run=147 exec_ms=10 lateness_ms=480 gap_ms=670 misses=104 mode=PROTECT healthy_streak=0
+[ML] run=124 repeats=1 total_cycles=626813664 avg_cycles=626813664 mode=PROTECT
+[RT] run=148 exec_ms=10 lateness_ms=610 gap_ms=730 misses=105 mode=PROTECT healthy_streak=0
+[ML] run=125 repeats=1 total_cycles=626825440 avg_cycles=626825440 mode=PROTECT
+[RT] run=149 exec_ms=10 lateness_ms=540 gap_ms=730 misses=106 mode=PROTECT healthy_streak=0
+[RT] run=150 exec_ms=0 lateness_ms=10 gap_ms=70 misses=106 mode=PROTECT healthy_streak=1
+[ML] run=126 repeats=1 total_cycles=626848416 avg_cycles=626848416 mode=PROTECT
+[RT] run=151 exec_ms=10 lateness_ms=470 gap_ms=660 misses=107 mode=PROTECT healthy_streak=0
+[ML] run=127 repeats=1 total_cycles=626777856 avg_cycles=626777856 mode=PROTECT
+[RT] run=152 exec_ms=10 lateness_ms=600 gap_ms=730 misses=108 mode=PROTECT healthy_streak=0
+[ML] run=128 repeats=1 total_cycles=626894528 avg_cycles=626894528 mode=PROTECT
+[RT] run=153 exec_ms=10 lateness_ms=530 gap_ms=730 misses=109 mode=PROTECT healthy_streak=0
+[RT] run=154 exec_ms=0 lateness_ms=10 gap_ms=80 misses=109 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=128 rt_runs=154 rt_misses=109 mode=PROTECT healthy_streak=1
+[ML] run=129 repeats=1 total_cycles=627150816 avg_cycles=627150816 mode=PROTECT
+[RT] run=155 exec_ms=10 lateness_ms=460 gap_ms=650 misses=110 mode=PROTECT healthy_streak=0
+[ML] run=130 repeats=1 total_cycles=626919296 avg_cycles=626919296 mode=PROTECT
+[RT] run=156 exec_ms=10 lateness_ms=590 gap_ms=730 misses=111 mode=PROTECT healthy_streak=0
+[ML] run=131 repeats=1 total_cycles=626803936 avg_cycles=626803936 mode=PROTECT
+[RT] run=157 exec_ms=10 lateness_ms=520 gap_ms=730 misses=112 mode=PROTECT healthy_streak=0
+[RT] run=158 exec_ms=0 lateness_ms=10 gap_ms=90 misses=112 mode=PROTECT healthy_streak=1
+[ML] run=132 repeats=1 total_cycles=626749728 avg_cycles=626749728 mode=PROTECT
+[RT] run=159 exec_ms=10 lateness_ms=450 gap_ms=640 misses=113 mode=PROTECT healthy_streak=0
+[ML] run=133 repeats=1 total_cycles=626776352 avg_cycles=626776352 mode=PROTECT
+[RT] run=160 exec_ms=10 lateness_ms=580 gap_ms=730 misses=114 mode=PROTECT healthy_streak=0
+[RT] run=161 exec_ms=0 lateness_ms=10 gap_ms=30 misses=114 mode=PROTECT healthy_streak=1
+[ML] run=134 repeats=1 total_cycles=626820000 avg_cycles=626820000 mode=PROTECT
+[RT] run=162 exec_ms=10 lateness_ms=510 gap_ms=700 misses=115 mode=PROTECT healthy_streak=0
+[RT] run=163 exec_ms=0 lateness_ms=10 gap_ms=100 misses=115 mode=PROTECT healthy_streak=1
+[ML] run=135 repeats=1 total_cycles=626796320 avg_cycles=626796320 mode=PROTECT
+[RT] run=164 exec_ms=10 lateness_ms=440 gap_ms=630 misses=116 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=135 rt_runs=164 rt_misses=116 mode=PROTECT healthy_streak=0
+[ML] run=136 repeats=1 total_cycles=627610304 avg_cycles=627610304 mode=PROTECT
+[RT] run=165 exec_ms=10 lateness_ms=570 gap_ms=730 misses=117 mode=PROTECT healthy_streak=0
+[RT] run=166 exec_ms=0 lateness_ms=10 gap_ms=40 misses=117 mode=PROTECT healthy_streak=1
+[ML] run=137 repeats=1 total_cycles=626761088 avg_cycles=626761088 mode=PROTECT
+[RT] run=167 exec_ms=10 lateness_ms=500 gap_ms=690 misses=118 mode=PROTECT healthy_streak=0
+[ML] run=138 repeats=1 total_cycles=626826592 avg_cycles=626826592 mode=PROTECT
+[RT] run=168 exec_ms=10 lateness_ms=630 gap_ms=730 misses=119 mode=PROTECT healthy_streak=0
+[ML] run=139 repeats=1 total_cycles=626730016 avg_cycles=626730016 mode=PROTECT
+[RT] run=169 exec_ms=10 lateness_ms=560 gap_ms=730 misses=120 mode=PROTECT healthy_streak=0
+[RT] run=170 exec_ms=0 lateness_ms=10 gap_ms=50 misses=120 mode=PROTECT healthy_streak=1
+[ML] run=140 repeats=1 total_cycles=626685632 avg_cycles=626685632 mode=PROTECT
+[RT] run=171 exec_ms=10 lateness_ms=490 gap_ms=680 misses=121 mode=PROTECT healthy_streak=0
+[ML] run=141 repeats=1 total_cycles=626714592 avg_cycles=626714592 mode=PROTECT
+[RT] run=172 exec_ms=10 lateness_ms=620 gap_ms=730 misses=122 mode=PROTECT healthy_streak=0
+[ML] run=142 repeats=1 total_cycles=626723424 avg_cycles=626723424 mode=PROTECT
+[RT] run=173 exec_ms=10 lateness_ms=550 gap_ms=730 misses=123 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=142 rt_runs=173 rt_misses=123 mode=PROTECT healthy_streak=0
+[RT] run=174 exec_ms=0 lateness_ms=10 gap_ms=60 misses=123 mode=PROTECT healthy_streak=1
+[ML] run=143 repeats=1 total_cycles=626641312 avg_cycles=626641312 mode=PROTECT
+[RT] run=175 exec_ms=10 lateness_ms=480 gap_ms=670 misses=124 mode=PROTECT healthy_streak=0
+[ML] run=144 repeats=1 total_cycles=626694624 avg_cycles=626694624 mode=PROTECT
+[RT] run=176 exec_ms=10 lateness_ms=610 gap_ms=730 misses=125 mode=PROTECT healthy_streak=0
+[ML] run=145 repeats=1 total_cycles=626754080 avg_cycles=626754080 mode=PROTECT
+[RT] run=177 exec_ms=10 lateness_ms=540 gap_ms=730 misses=126 mode=PROTECT healthy_streak=0
+[RT] run=178 exec_ms=0 lateness_ms=10 gap_ms=70 misses=126 mode=PROTECT healthy_streak=1
+[ML] run=146 repeats=1 total_cycles=626720992 avg_cycles=626720992 mode=PROTECT
+[RT] run=179 exec_ms=10 lateness_ms=470 gap_ms=660 misses=127 mode=PROTECT healthy_streak=0
+[ML] run=147 repeats=1 total_cycles=626688864 avg_cycles=626688864 mode=PROTECT
+[RT] run=180 exec_ms=10 lateness_ms=600 gap_ms=730 misses=128 mode=PROTECT healthy_streak=0
+[ML] run=148 repeats=1 total_cycles=626760928 avg_cycles=626760928 mode=PROTECT
+[RT] run=181 exec_ms=10 lateness_ms=530 gap_ms=730 misses=129 mode=PROTECT healthy_streak=0
+[RT] run=182 exec_ms=0 lateness_ms=10 gap_ms=80 misses=129 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=148 rt_runs=182 rt_misses=129 mode=PROTECT healthy_streak=1
+[ML] run=149 repeats=1 total_cycles=626990176 avg_cycles=626990176 mode=PROTECT
+[RT] run=183 exec_ms=10 lateness_ms=460 gap_ms=650 misses=130 mode=PROTECT healthy_streak=0
+[ML] run=150 repeats=1 total_cycles=626776288 avg_cycles=626776288 mode=PROTECT
+[RT] run=184 exec_ms=10 lateness_ms=590 gap_ms=730 misses=131 mode=PROTECT healthy_streak=0
+[ML] run=151 repeats=1 total_cycles=626777728 avg_cycles=626777728 mode=PROTECT
+[RT] run=185 exec_ms=10 lateness_ms=520 gap_ms=730 misses=132 mode=PROTECT healthy_streak=0
+[RT] run=186 exec_ms=0 lateness_ms=10 gap_ms=90 misses=132 mode=PROTECT healthy_streak=1
+[ML] run=152 repeats=1 total_cycles=626727424 avg_cycles=626727424 mode=PROTECT
+[RT] run=187 exec_ms=10 lateness_ms=450 gap_ms=640 misses=133 mode=PROTECT healthy_streak=0
+[ML] run=153 repeats=1 total_cycles=626635360 avg_cycles=626635360 mode=PROTECT
+[RT] run=188 exec_ms=10 lateness_ms=580 gap_ms=730 misses=134 mode=PROTECT healthy_streak=0
+[RT] run=189 exec_ms=0 lateness_ms=10 gap_ms=30 misses=134 mode=PROTECT healthy_streak=1
+[ML] run=154 repeats=1 total_cycles=626791744 avg_cycles=626791744 mode=PROTECT
+[RT] run=190 exec_ms=10 lateness_ms=510 gap_ms=700 misses=135 mode=PROTECT healthy_streak=0
+[RT] run=191 exec_ms=0 lateness_ms=10 gap_ms=100 misses=135 mode=PROTECT healthy_streak=1
+[ML] run=155 repeats=1 total_cycles=626772192 avg_cycles=626772192 mode=PROTECT
+[RT] run=192 exec_ms=10 lateness_ms=440 gap_ms=630 misses=136 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=155 rt_runs=192 rt_misses=136 mode=PROTECT healthy_streak=0
+[ML] run=156 repeats=1 total_cycles=627110656 avg_cycles=627110656 mode=PROTECT
+[RT] run=193 exec_ms=10 lateness_ms=570 gap_ms=730 misses=137 mode=PROTECT healthy_streak=0
+[RT] run=194 exec_ms=0 lateness_ms=10 gap_ms=40 misses=137 mode=PROTECT healthy_streak=1
+[ML] run=157 repeats=1 total_cycles=626846016 avg_cycles=626846016 mode=PROTECT
+[RT] run=195 exec_ms=10 lateness_ms=500 gap_ms=690 misses=138 mode=PROTECT healthy_streak=0
+[ML] run=158 repeats=1 total_cycles=626972160 avg_cycles=626972160 mode=PROTECT
+[RT] run=196 exec_ms=10 lateness_ms=630 gap_ms=730 misses=139 mode=PROTECT healthy_streak=0
+[ML] run=159 repeats=1 total_cycles=626861056 avg_cycles=626861056 mode=PROTECT
+[RT] run=197 exec_ms=10 lateness_ms=560 gap_ms=730 misses=140 mode=PROTECT healthy_streak=0
+[RT] run=198 exec_ms=0 lateness_ms=10 gap_ms=50 misses=140 mode=PROTECT healthy_streak=1
+[ML] run=160 repeats=1 total_cycles=626834752 avg_cycles=626834752 mode=PROTECT
+[RT] run=199 exec_ms=10 lateness_ms=490 gap_ms=680 misses=141 mode=PROTECT healthy_streak=0
+[ML] run=161 repeats=1 total_cycles=627042336 avg_cycles=627042336 mode=PROTECT
+[RT] run=200 exec_ms=10 lateness_ms=620 gap_ms=730 misses=142 mode=PROTECT healthy_streak=0
+[ML] run=162 repeats=1 total_cycles=626934560 avg_cycles=626934560 mode=PROTECT
+[RT] run=201 exec_ms=10 lateness_ms=550 gap_ms=730 misses=143 mode=PROTECT healthy_streak=0
+[RT] run=202 exec_ms=0 lateness_ms=10 gap_ms=60 misses=143 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=162 rt_runs=202 rt_misses=143 mode=PROTECT healthy_streak=1
+[ML] run=163 repeats=1 total_cycles=627275456 avg_cycles=627275456 mode=PROTECT
+[RT] run=203 exec_ms=10 lateness_ms=480 gap_ms=670 misses=144 mode=PROTECT healthy_streak=0
+[ML] run=164 repeats=1 total_cycles=626905568 avg_cycles=626905568 mode=PROTECT
+[RT] run=204 exec_ms=10 lateness_ms=610 gap_ms=730 misses=145 mode=PROTECT healthy_streak=0
+[ML] run=165 repeats=1 total_cycles=626888704 avg_cycles=626888704 mode=PROTECT
+[RT] run=205 exec_ms=10 lateness_ms=540 gap_ms=730 misses=146 mode=PROTECT healthy_streak=0
+[RT] run=206 exec_ms=0 lateness_ms=10 gap_ms=70 misses=146 mode=PROTECT healthy_streak=1
+[ML] run=166 repeats=1 total_cycles=626858240 avg_cycles=626858240 mode=PROTECT
+[RT] run=207 exec_ms=10 lateness_ms=470 gap_ms=660 misses=147 mode=PROTECT healthy_streak=0
+[ML] run=167 repeats=1 total_cycles=626842336 avg_cycles=626842336 mode=PROTECT
+[RT] run=208 exec_ms=10 lateness_ms=600 gap_ms=730 misses=148 mode=PROTECT healthy_streak=0
+[ML] run=168 repeats=1 total_cycles=626831552 avg_cycles=626831552 mode=PROTECT
+[RT] run=209 exec_ms=10 lateness_ms=530 gap_ms=730 misses=149 mode=PROTECT healthy_streak=0
+[RT] run=210 exec_ms=0 lateness_ms=10 gap_ms=80 misses=149 mode=PROTECT healthy_streak=1
+[ML] run=169 repeats=1 total_cycles=626854528 avg_cycles=626854528 mode=PROTECT
+[RT] run=211 exec_ms=10 lateness_ms=460 gap_ms=650 misses=150 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=169 rt_runs=211 rt_misses=150 mode=PROTECT healthy_streak=0
+[ML] run=170 repeats=1 total_cycles=627197952 avg_cycles=627197952 mode=PROTECT
+[RT] run=212 exec_ms=10 lateness_ms=590 gap_ms=730 misses=151 mode=PROTECT healthy_streak=0
+[ML] run=171 repeats=1 total_cycles=626869632 avg_cycles=626869632 mode=PROTECT
+[RT] run=213 exec_ms=10 lateness_ms=520 gap_ms=730 misses=152 mode=PROTECT healthy_streak=0
+[RT] run=214 exec_ms=0 lateness_ms=10 gap_ms=90 misses=152 mode=PROTECT healthy_streak=1
+[ML] run=172 repeats=1 total_cycles=626785856 avg_cycles=626785856 mode=PROTECT
+[RT] run=215 exec_ms=10 lateness_ms=450 gap_ms=640 misses=153 mode=PROTECT healthy_streak=0
+[ML] run=173 repeats=1 total_cycles=626897504 avg_cycles=626897504 mode=PROTECT
+[RT] run=216 exec_ms=10 lateness_ms=580 gap_ms=730 misses=154 mode=PROTECT healthy_streak=0
+[RT] run=217 exec_ms=0 lateness_ms=10 gap_ms=30 misses=154 mode=PROTECT healthy_streak=1
+[ML] run=174 repeats=1 total_cycles=626948928 avg_cycles=626948928 mode=PROTECT
+[RT] run=218 exec_ms=10 lateness_ms=510 gap_ms=700 misses=155 mode=PROTECT healthy_streak=0
+[RT] run=219 exec_ms=0 lateness_ms=10 gap_ms=100 misses=155 mode=PROTECT healthy_streak=1
+[ML] run=175 repeats=1 total_cycles=626690272 avg_cycles=626690272 mode=PROTECT
+[RT] run=220 exec_ms=10 lateness_ms=440 gap_ms=630 misses=156 mode=PROTECT healthy_streak=0
+[ML] run=176 repeats=1 total_cycles=626759808 avg_cycles=626759808 mode=PROTECT
+[RT] run=221 exec_ms=10 lateness_ms=570 gap_ms=730 misses=157 mode=PROTECT healthy_streak=0
+[RT] run=222 exec_ms=0 lateness_ms=10 gap_ms=40 misses=157 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=176 rt_runs=222 rt_misses=157 mode=PROTECT healthy_streak=1
+[ML] run=177 repeats=1 total_cycles=627222880 avg_cycles=627222880 mode=PROTECT
+[RT] run=223 exec_ms=10 lateness_ms=500 gap_ms=690 misses=158 mode=PROTECT healthy_streak=0
+[ML] run=178 repeats=1 total_cycles=626773760 avg_cycles=626773760 mode=PROTECT
+[RT] run=224 exec_ms=10 lateness_ms=630 gap_ms=730 misses=159 mode=PROTECT healthy_streak=0
+[ML] run=179 repeats=1 total_cycles=626650944 avg_cycles=626650944 mode=PROTECT
+[RT] run=225 exec_ms=10 lateness_ms=560 gap_ms=730 misses=160 mode=PROTECT healthy_streak=0
+[RT] run=226 exec_ms=0 lateness_ms=10 gap_ms=50 misses=160 mode=PROTECT healthy_streak=1
+[ML] run=180 repeats=1 total_cycles=626612704 avg_cycles=626612704 mode=PROTECT
+[RT] run=227 exec_ms=10 lateness_ms=490 gap_ms=680 misses=161 mode=PROTECT healthy_streak=0
+[ML] run=181 repeats=1 total_cycles=626807072 avg_cycles=626807072 mode=PROTECT
+[RT] run=228 exec_ms=10 lateness_ms=620 gap_ms=730 misses=162 mode=PROTECT healthy_streak=0
+[ML] run=182 repeats=1 total_cycles=626662464 avg_cycles=626662464 mode=PROTECT
+[RT] run=229 exec_ms=10 lateness_ms=550 gap_ms=730 misses=163 mode=PROTECT healthy_streak=0
+[RT] run=230 exec_ms=0 lateness_ms=10 gap_ms=60 misses=163 mode=PROTECT healthy_streak=1
+[ML] run=183 repeats=1 total_cycles=626797248 avg_cycles=626797248 mode=PROTECT
+[RT] run=231 exec_ms=10 lateness_ms=480 gap_ms=670 misses=164 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=183 rt_runs=231 rt_misses=164 mode=PROTECT healthy_streak=0
+[ML] run=184 repeats=1 total_cycles=627179424 avg_cycles=627179424 mode=PROTECT
+[RT] run=232 exec_ms=10 lateness_ms=610 gap_ms=730 misses=165 mode=PROTECT healthy_streak=0
+[ML] run=185 repeats=1 total_cycles=626941888 avg_cycles=626941888 mode=PROTECT
+[RT] run=233 exec_ms=10 lateness_ms=540 gap_ms=730 misses=166 mode=PROTECT healthy_streak=0
+[RT] run=234 exec_ms=0 lateness_ms=10 gap_ms=70 misses=166 mode=PROTECT healthy_streak=1
+[ML] run=186 repeats=1 total_cycles=626754816 avg_cycles=626754816 mode=PROTECT
+[RT] run=235 exec_ms=10 lateness_ms=470 gap_ms=660 misses=167 mode=PROTECT healthy_streak=0
+[ML] run=187 repeats=1 total_cycles=626854336 avg_cycles=626854336 mode=PROTECT
+[RT] run=236 exec_ms=10 lateness_ms=600 gap_ms=730 misses=168 mode=PROTECT healthy_streak=0
+[ML] run=188 repeats=1 total_cycles=626768448 avg_cycles=626768448 mode=PROTECT
+[RT] run=237 exec_ms=10 lateness_ms=530 gap_ms=730 misses=169 mode=PROTECT healthy_streak=0
+[RT] run=238 exec_ms=0 lateness_ms=10 gap_ms=80 misses=169 mode=PROTECT healthy_streak=1
+[ML] run=189 repeats=1 total_cycles=626920416 avg_cycles=626920416 mode=PROTECT
+[RT] run=239 exec_ms=10 lateness_ms=460 gap_ms=650 misses=170 mode=PROTECT healthy_streak=0
+[ML] run=190 repeats=1 total_cycles=626790592 avg_cycles=626790592 mode=PROTECT
+[RT] run=240 exec_ms=10 lateness_ms=590 gap_ms=730 misses=171 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=190 rt_runs=240 rt_misses=171 mode=PROTECT healthy_streak=0
+[ML] run=191 repeats=1 total_cycles=627289920 avg_cycles=627289920 mode=PROTECT
+[RT] run=241 exec_ms=10 lateness_ms=520 gap_ms=730 misses=172 mode=PROTECT healthy_streak=0
+[RT] run=242 exec_ms=0 lateness_ms=10 gap_ms=90 misses=172 mode=PROTECT healthy_streak=1
+[ML] run=192 repeats=1 total_cycles=627205600 avg_cycles=627205600 mode=PROTECT
+[RT] run=243 exec_ms=10 lateness_ms=450 gap_ms=640 misses=173 mode=PROTECT healthy_streak=0
+[ML] run=193 repeats=1 total_cycles=627409536 avg_cycles=627409536 mode=PROTECT
+[RT] run=244 exec_ms=10 lateness_ms=580 gap_ms=730 misses=174 mode=PROTECT healthy_streak=0
+[RT] run=245 exec_ms=0 lateness_ms=10 gap_ms=30 misses=174 mode=PROTECT healthy_streak=1
+[ML] run=194 repeats=1 total_cycles=627450816 avg_cycles=627450816 mode=PROTECT
+[RT] run=246 exec_ms=10 lateness_ms=510 gap_ms=700 misses=175 mode=PROTECT healthy_streak=0
+[RT] run=247 exec_ms=0 lateness_ms=10 gap_ms=100 misses=175 mode=PROTECT healthy_streak=1
+[ML] run=195 repeats=1 total_cycles=627159168 avg_cycles=627159168 mode=PROTECT
+[RT] run=248 exec_ms=10 lateness_ms=440 gap_ms=630 misses=176 mode=PROTECT healthy_streak=0
+[ML] run=196 repeats=1 total_cycles=626845440 avg_cycles=626845440 mode=PROTECT
+[RT] run=249 exec_ms=10 lateness_ms=570 gap_ms=730 misses=177 mode=PROTECT healthy_streak=0
+[RT] run=250 exec_ms=0 lateness_ms=10 gap_ms=40 misses=177 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=196 rt_runs=250 rt_misses=177 mode=PROTECT healthy_streak=1
+[ML] run=197 repeats=1 total_cycles=627307072 avg_cycles=627307072 mode=PROTECT
+[RT] run=251 exec_ms=10 lateness_ms=500 gap_ms=690 misses=178 mode=PROTECT healthy_streak=0
+[ML] run=198 repeats=1 total_cycles=626807520 avg_cycles=626807520 mode=PROTECT
+[RT] run=252 exec_ms=10 lateness_ms=630 gap_ms=730 misses=179 mode=PROTECT healthy_streak=0
+[ML] run=199 repeats=1 total_cycles=626797312 avg_cycles=626797312 mode=PROTECT
+[RT] run=253 exec_ms=10 lateness_ms=560 gap_ms=730 misses=180 mode=PROTECT healthy_streak=0
+[RT] run=254 exec_ms=0 lateness_ms=10 gap_ms=50 misses=180 mode=PROTECT healthy_streak=1
+[ML] run=200 repeats=1 total_cycles=627028480 avg_cycles=627028480 mode=PROTECT
+[RT] run=255 exec_ms=10 lateness_ms=490 gap_ms=680 misses=181 mode=PROTECT healthy_streak=0
+[ML] run=201 repeats=1 total_cycles=626952384 avg_cycles=626952384 mode=PROTECT
+[RT] run=256 exec_ms=10 lateness_ms=620 gap_ms=730 misses=182 mode=PROTECT healthy_streak=0
+[ML] run=202 repeats=1 total_cycles=626818208 avg_cycles=626818208 mode=PROTECT
+[RT] run=257 exec_ms=10 lateness_ms=550 gap_ms=730 misses=183 mode=PROTECT healthy_streak=0
+[RT] run=258 exec_ms=0 lateness_ms=10 gap_ms=60 misses=183 mode=PROTECT healthy_streak=1
+[ML] run=203 repeats=1 total_cycles=626889184 avg_cycles=626889184 mode=PROTECT
+[RT] run=259 exec_ms=10 lateness_ms=480 gap_ms=670 misses=184 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=203 rt_runs=259 rt_misses=184 mode=PROTECT healthy_streak=0
+[ML] run=204 repeats=1 total_cycles=627250080 avg_cycles=627250080 mode=PROTECT
+[RT] run=260 exec_ms=10 lateness_ms=610 gap_ms=730 misses=185 mode=PROTECT healthy_streak=0
+[ML] run=205 repeats=1 total_cycles=626981920 avg_cycles=626981920 mode=PROTECT
+[RT] run=261 exec_ms=10 lateness_ms=540 gap_ms=730 misses=186 mode=PROTECT healthy_streak=0
+[RT] run=262 exec_ms=0 lateness_ms=10 gap_ms=70 misses=186 mode=PROTECT healthy_streak=1
+[ML] run=206 repeats=1 total_cycles=626786720 avg_cycles=626786720 mode=PROTECT
+[RT] run=263 exec_ms=10 lateness_ms=470 gap_ms=660 misses=187 mode=PROTECT healthy_streak=0
+[ML] run=207 repeats=1 total_cycles=626943808 avg_cycles=626943808 mode=PROTECT
+[RT] run=264 exec_ms=10 lateness_ms=600 gap_ms=730 misses=188 mode=PROTECT healthy_streak=0
+[ML] run=208 repeats=1 total_cycles=626745184 avg_cycles=626745184 mode=PROTECT
+[RT] run=265 exec_ms=10 lateness_ms=530 gap_ms=730 misses=189 mode=PROTECT healthy_streak=0
+[RT] run=266 exec_ms=0 lateness_ms=10 gap_ms=80 misses=189 mode=PROTECT healthy_streak=1
+[ML] run=209 repeats=1 total_cycles=626815840 avg_cycles=626815840 mode=PROTECT
+[RT] run=267 exec_ms=10 lateness_ms=460 gap_ms=650 misses=190 mode=PROTECT healthy_streak=0
+[ML] run=210 repeats=1 total_cycles=626819488 avg_cycles=626819488 mode=PROTECT
+[RT] run=268 exec_ms=10 lateness_ms=590 gap_ms=730 misses=191 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=210 rt_runs=268 rt_misses=191 mode=PROTECT healthy_streak=0
+[ML] run=211 repeats=1 total_cycles=627124320 avg_cycles=627124320 mode=PROTECT
+[RT] run=269 exec_ms=10 lateness_ms=520 gap_ms=730 misses=192 mode=PROTECT healthy_streak=0
+[RT] run=270 exec_ms=0 lateness_ms=10 gap_ms=90 misses=192 mode=PROTECT healthy_streak=1
+[ML] run=212 repeats=1 total_cycles=626732160 avg_cycles=626732160 mode=PROTECT
+[RT] run=271 exec_ms=10 lateness_ms=450 gap_ms=640 misses=193 mode=PROTECT healthy_streak=0
+[ML] run=213 repeats=1 total_cycles=626849504 avg_cycles=626849504 mode=PROTECT
+[RT] run=272 exec_ms=10 lateness_ms=580 gap_ms=730 misses=194 mode=PROTECT healthy_streak=0
+[RT] run=273 exec_ms=0 lateness_ms=10 gap_ms=30 misses=194 mode=PROTECT healthy_streak=1
+[ML] run=214 repeats=1 total_cycles=626778624 avg_cycles=626778624 mode=PROTECT
+[RT] run=274 exec_ms=10 lateness_ms=510 gap_ms=700 misses=195 mode=PROTECT healthy_streak=0
+[RT] run=275 exec_ms=0 lateness_ms=10 gap_ms=100 misses=195 mode=PROTECT healthy_streak=1
+[ML] run=215 repeats=1 total_cycles=626732832 avg_cycles=626732832 mode=PROTECT
+[RT] run=276 exec_ms=10 lateness_ms=440 gap_ms=630 misses=196 mode=PROTECT healthy_streak=0
+[ML] run=216 repeats=1 total_cycles=626897504 avg_cycles=626897504 mode=PROTECT
+[RT] run=277 exec_ms=10 lateness_ms=570 gap_ms=730 misses=197 mode=PROTECT healthy_streak=0
+[RT] run=278 exec_ms=0 lateness_ms=10 gap_ms=40 misses=197 mode=PROTECT healthy_streak=1
+[ML] run=217 repeats=1 total_cycles=626962048 avg_cycles=626962048 mode=PROTECT
+[RT] run=279 exec_ms=10 lateness_ms=500 gap_ms=690 misses=198 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=217 rt_runs=279 rt_misses=198 mode=PROTECT healthy_streak=0
+[ML] run=218 repeats=1 total_cycles=627146272 avg_cycles=627146272 mode=PROTECT
+[RT] run=280 exec_ms=10 lateness_ms=630 gap_ms=730 misses=199 mode=PROTECT healthy_streak=0
+[ML] run=219 repeats=1 total_cycles=626804800 avg_cycles=626804800 mode=PROTECT
+[RT] run=281 exec_ms=10 lateness_ms=560 gap_ms=730 misses=200 mode=PROTECT healthy_streak=0
+[RT] run=282 exec_ms=0 lateness_ms=10 gap_ms=50 misses=200 mode=PROTECT healthy_streak=1
+[ML] run=220 repeats=1 total_cycles=626862688 avg_cycles=626862688 mode=PROTECT
+[RT] run=283 exec_ms=10 lateness_ms=490 gap_ms=680 misses=201 mode=PROTECT healthy_streak=0
+[ML] run=221 repeats=1 total_cycles=626853568 avg_cycles=626853568 mode=PROTECT
+[RT] run=284 exec_ms=10 lateness_ms=620 gap_ms=730 misses=202 mode=PROTECT healthy_streak=0
+[ML] run=222 repeats=1 total_cycles=626875456 avg_cycles=626875456 mode=PROTECT
+[RT] run=285 exec_ms=10 lateness_ms=550 gap_ms=730 misses=203 mode=PROTECT healthy_streak=0
+[RT] run=286 exec_ms=0 lateness_ms=10 gap_ms=60 misses=203 mode=PROTECT healthy_streak=1
+[ML] run=223 repeats=1 total_cycles=626985888 avg_cycles=626985888 mode=PROTECT
+[RT] run=287 exec_ms=10 lateness_ms=480 gap_ms=670 misses=204 mode=PROTECT healthy_streak=0
+[ML] run=224 repeats=1 total_cycles=626884512 avg_cycles=626884512 mode=PROTECT
+[RT] run=288 exec_ms=10 lateness_ms=610 gap_ms=730 misses=205 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=224 rt_runs=288 rt_misses=205 mode=PROTECT healthy_streak=0
+[ML] run=225 repeats=1 total_cycles=627204896 avg_cycles=627204896 mode=PROTECT
+[RT] run=289 exec_ms=10 lateness_ms=540 gap_ms=730 misses=206 mode=PROTECT healthy_streak=0
+[RT] run=290 exec_ms=0 lateness_ms=10 gap_ms=70 misses=206 mode=PROTECT healthy_streak=1
+[ML] run=226 repeats=1 total_cycles=626864288 avg_cycles=626864288 mode=PROTECT
+[RT] run=291 exec_ms=10 lateness_ms=470 gap_ms=660 misses=207 mode=PROTECT healthy_streak=0
+[ML] run=227 repeats=1 total_cycles=626897760 avg_cycles=626897760 mode=PROTECT
+[RT] run=292 exec_ms=10 lateness_ms=600 gap_ms=730 misses=208 mode=PROTECT healthy_streak=0
+[ML] run=228 repeats=1 total_cycles=627032928 avg_cycles=627032928 mode=PROTECT
+[RT] run=293 exec_ms=10 lateness_ms=530 gap_ms=730 misses=209 mode=PROTECT healthy_streak=0
+[RT] run=294 exec_ms=0 lateness_ms=10 gap_ms=80 misses=209 mode=PROTECT healthy_streak=1
+[ML] run=229 repeats=1 total_cycles=626964736 avg_cycles=626964736 mode=PROTECT
+[RT] run=295 exec_ms=10 lateness_ms=460 gap_ms=650 misses=210 mode=PROTECT healthy_streak=0
+[ML] run=230 repeats=1 total_cycles=626932672 avg_cycles=626932672 mode=PROTECT
+[RT] run=296 exec_ms=10 lateness_ms=590 gap_ms=730 misses=211 mode=PROTECT healthy_streak=0
+[ML] run=231 repeats=1 total_cycles=626828608 avg_cycles=626828608 mode=PROTECT
+[RT] run=297 exec_ms=10 lateness_ms=520 gap_ms=730 misses=212 mode=PROTECT healthy_streak=0
+[RT] run=298 exec_ms=0 lateness_ms=10 gap_ms=90 misses=212 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=231 rt_runs=298 rt_misses=212 mode=PROTECT healthy_streak=1
+[ML] run=232 repeats=1 total_cycles=627203552 avg_cycles=627203552 mode=PROTECT
+[RT] run=299 exec_ms=10 lateness_ms=450 gap_ms=640 misses=213 mode=PROTECT healthy_streak=0
+[ML] run=233 repeats=1 total_cycles=627052704 avg_cycles=627052704 mode=PROTECT
+[RT] run=300 exec_ms=10 lateness_ms=580 gap_ms=730 misses=214 mode=PROTECT healthy_streak=0
+[RT] run=301 exec_ms=0 lateness_ms=10 gap_ms=30 misses=214 mode=PROTECT healthy_streak=1
+[ML] run=234 repeats=1 total_cycles=626898624 avg_cycles=626898624 mode=PROTECT
+[RT] run=302 exec_ms=10 lateness_ms=510 gap_ms=700 misses=215 mode=PROTECT healthy_streak=0
+[RT] run=303 exec_ms=0 lateness_ms=10 gap_ms=100 misses=215 mode=PROTECT healthy_streak=1
+[ML] run=235 repeats=1 total_cycles=626872736 avg_cycles=626872736 mode=PROTECT
+[RT] run=304 exec_ms=10 lateness_ms=440 gap_ms=630 misses=216 mode=PROTECT healthy_streak=0
+[ML] run=236 repeats=1 total_cycles=627062368 avg_cycles=627062368 mode=PROTECT
+[RT] run=305 exec_ms=10 lateness_ms=570 gap_ms=730 misses=217 mode=PROTECT healthy_streak=0
+[RT] run=306 exec_ms=0 lateness_ms=10 gap_ms=40 misses=217 mode=PROTECT healthy_streak=1
+[ML] run=237 repeats=1 total_cycles=626908896 avg_cycles=626908896 mode=PROTECT
+[RT] run=307 exec_ms=10 lateness_ms=500 gap_ms=690 misses=218 mode=PROTECT healthy_streak=0
+[ML] run=238 repeats=1 total_cycles=626894784 avg_cycles=626894784 mode=PROTECT
+[RT] run=308 exec_ms=10 lateness_ms=630 gap_ms=730 misses=219 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=238 rt_runs=308 rt_misses=219 mode=PROTECT healthy_streak=0
+[ML] run=239 repeats=1 total_cycles=627033664 avg_cycles=627033664 mode=PROTECT
+[RT] run=309 exec_ms=10 lateness_ms=560 gap_ms=730 misses=220 mode=PROTECT healthy_streak=0
+[RT] run=310 exec_ms=0 lateness_ms=10 gap_ms=50 misses=220 mode=PROTECT healthy_streak=1
+[ML] run=240 repeats=1 total_cycles=627096448 avg_cycles=627096448 mode=PROTECT
+[RT] run=311 exec_ms=10 lateness_ms=490 gap_ms=680 misses=221 mode=PROTECT healthy_streak=0
+[ML] run=241 repeats=1 total_cycles=626930176 avg_cycles=626930176 mode=PROTECT
+[RT] run=312 exec_ms=10 lateness_ms=620 gap_ms=730 misses=222 mode=PROTECT healthy_streak=0
+[ML] run=242 repeats=1 total_cycles=626858560 avg_cycles=626858560 mode=PROTECT
+[RT] run=313 exec_ms=10 lateness_ms=550 gap_ms=730 misses=223 mode=PROTECT healthy_streak=0
+[RT] run=314 exec_ms=0 lateness_ms=10 gap_ms=60 misses=223 mode=PROTECT healthy_streak=1
+[ML] run=243 repeats=1 total_cycles=626843488 avg_cycles=626843488 mode=PROTECT
+[RT] run=315 exec_ms=10 lateness_ms=480 gap_ms=670 misses=224 mode=PROTECT healthy_streak=0
+[ML] run=244 repeats=1 total_cycles=627023744 avg_cycles=627023744 mode=PROTECT
+[RT] run=316 exec_ms=10 lateness_ms=610 gap_ms=730 misses=225 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=244 rt_runs=316 rt_misses=225 mode=PROTECT healthy_streak=0
+[ML] run=245 repeats=1 total_cycles=627258624 avg_cycles=627258624 mode=PROTECT
+[RT] run=317 exec_ms=10 lateness_ms=540 gap_ms=730 misses=226 mode=PROTECT healthy_streak=0
+[RT] run=318 exec_ms=0 lateness_ms=10 gap_ms=70 misses=226 mode=PROTECT healthy_streak=1
+[ML] run=246 repeats=1 total_cycles=626837344 avg_cycles=626837344 mode=PROTECT
+[RT] run=319 exec_ms=10 lateness_ms=470 gap_ms=660 misses=227 mode=PROTECT healthy_streak=0
+[ML] run=247 repeats=1 total_cycles=626773216 avg_cycles=626773216 mode=PROTECT
+[RT] run=320 exec_ms=10 lateness_ms=600 gap_ms=730 misses=228 mode=PROTECT healthy_streak=0
+[ML] run=248 repeats=1 total_cycles=626904544 avg_cycles=626904544 mode=PROTECT
+[RT] run=321 exec_ms=10 lateness_ms=530 gap_ms=730 misses=229 mode=PROTECT healthy_streak=0
+[RT] run=322 exec_ms=0 lateness_ms=10 gap_ms=80 misses=229 mode=PROTECT healthy_streak=1
+[ML] run=249 repeats=1 total_cycles=626956448 avg_cycles=626956448 mode=PROTECT
+[RT] run=323 exec_ms=10 lateness_ms=460 gap_ms=650 misses=230 mode=PROTECT healthy_streak=0
+[ML] run=250 repeats=1 total_cycles=627022624 avg_cycles=627022624 mode=PROTECT
+[RT] run=324 exec_ms=10 lateness_ms=590 gap_ms=730 misses=231 mode=PROTECT healthy_streak=0
+[ML] run=251 repeats=1 total_cycles=627019424 avg_cycles=627019424 mode=PROTECT
+[RT] run=325 exec_ms=10 lateness_ms=520 gap_ms=730 misses=232 mode=PROTECT healthy_streak=0
+[RT] run=326 exec_ms=0 lateness_ms=10 gap_ms=90 misses=232 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=251 rt_runs=326 rt_misses=232 mode=PROTECT healthy_streak=1
+[ML] run=252 repeats=1 total_cycles=627558976 avg_cycles=627558976 mode=PROTECT
+[RT] run=327 exec_ms=10 lateness_ms=450 gap_ms=640 misses=233 mode=PROTECT healthy_streak=0
+[ML] run=253 repeats=1 total_cycles=627579200 avg_cycles=627579200 mode=PROTECT
+[RT] run=328 exec_ms=10 lateness_ms=580 gap_ms=730 misses=234 mode=PROTECT healthy_streak=0
+[RT] run=329 exec_ms=0 lateness_ms=10 gap_ms=30 misses=234 mode=PROTECT healthy_streak=1
+[ML] run=254 repeats=1 total_cycles=627254912 avg_cycles=627254912 mode=PROTECT
+[RT] run=330 exec_ms=10 lateness_ms=510 gap_ms=700 misses=235 mode=PROTECT healthy_streak=0
+[RT] run=331 exec_ms=0 lateness_ms=10 gap_ms=100 misses=235 mode=PROTECT healthy_streak=1
+[ML] run=255 repeats=1 total_cycles=626999424 avg_cycles=626999424 mode=PROTECT
+[RT] run=332 exec_ms=10 lateness_ms=440 gap_ms=630 misses=236 mode=PROTECT healthy_streak=0
+[ML] run=256 repeats=1 total_cycles=627139296 avg_cycles=627139296 mode=PROTECT
+[RT] run=333 exec_ms=10 lateness_ms=570 gap_ms=730 misses=237 mode=PROTECT healthy_streak=0
+[RT] run=334 exec_ms=0 lateness_ms=10 gap_ms=40 misses=237 mode=PROTECT healthy_streak=1
+[ML] run=257 repeats=1 total_cycles=626848608 avg_cycles=626848608 mode=PROTECT
+[RT] run=335 exec_ms=10 lateness_ms=500 gap_ms=690 misses=238 mode=PROTECT healthy_streak=0
+[ML] run=258 repeats=1 total_cycles=626732192 avg_cycles=626732192 mode=PROTECT
+[RT] run=336 exec_ms=10 lateness_ms=630 gap_ms=730 misses=239 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=258 rt_runs=336 rt_misses=239 mode=PROTECT healthy_streak=0
+[ML] run=259 repeats=1 total_cycles=627244992 avg_cycles=627244992 mode=PROTECT
+[RT] run=337 exec_ms=10 lateness_ms=560 gap_ms=730 misses=240 mode=PROTECT healthy_streak=0
+[RT] run=338 exec_ms=0 lateness_ms=10 gap_ms=50 misses=240 mode=PROTECT healthy_streak=1
+[ML] run=260 repeats=1 total_cycles=626901280 avg_cycles=626901280 mode=PROTECT
+[RT] run=339 exec_ms=10 lateness_ms=490 gap_ms=680 misses=241 mode=PROTECT healthy_streak=0
+[ML] run=261 repeats=1 total_cycles=626941408 avg_cycles=626941408 mode=PROTECT
+[RT] run=340 exec_ms=10 lateness_ms=620 gap_ms=730 misses=242 mode=PROTECT healthy_streak=0
+[ML] run=262 repeats=1 total_cycles=626950944 avg_cycles=626950944 mode=PROTECT
+[RT] run=341 exec_ms=10 lateness_ms=550 gap_ms=730 misses=243 mode=PROTECT healthy_streak=0
+[RT] run=342 exec_ms=0 lateness_ms=10 gap_ms=60 misses=243 mode=PROTECT healthy_streak=1
+[ML] run=263 repeats=1 total_cycles=626887104 avg_cycles=626887104 mode=PROTECT
+[RT] run=343 exec_ms=10 lateness_ms=480 gap_ms=670 misses=244 mode=PROTECT healthy_streak=0
+[ML] run=264 repeats=1 total_cycles=626890528 avg_cycles=626890528 mode=PROTECT
+[RT] run=344 exec_ms=10 lateness_ms=610 gap_ms=730 misses=245 mode=PROTECT healthy_streak=0
+[ML] run=265 repeats=1 total_cycles=626802240 avg_cycles=626802240 mode=PROTECT
+[RT] run=345 exec_ms=10 lateness_ms=540 gap_ms=730 misses=246 mode=PROTECT healthy_streak=0
+[RT] run=346 exec_ms=0 lateness_ms=10 gap_ms=70 misses=246 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=265 rt_runs=346 rt_misses=246 mode=PROTECT healthy_streak=1
+[ML] run=266 repeats=1 total_cycles=627195328 avg_cycles=627195328 mode=PROTECT
+[RT] run=347 exec_ms=10 lateness_ms=470 gap_ms=660 misses=247 mode=PROTECT healthy_streak=0
+[ML] run=267 repeats=1 total_cycles=626817472 avg_cycles=626817472 mode=PROTECT
+[RT] run=348 exec_ms=10 lateness_ms=600 gap_ms=730 misses=248 mode=PROTECT healthy_streak=0
+[ML] run=268 repeats=1 total_cycles=626916192 avg_cycles=626916192 mode=PROTECT
+[RT] run=349 exec_ms=10 lateness_ms=530 gap_ms=730 misses=249 mode=PROTECT healthy_streak=0
+[RT] run=350 exec_ms=0 lateness_ms=10 gap_ms=80 misses=249 mode=PROTECT healthy_streak=1
+[ML] run=269 repeats=1 total_cycles=626801472 avg_cycles=626801472 mode=PROTECT
+[RT] run=351 exec_ms=10 lateness_ms=460 gap_ms=650 misses=250 mode=PROTECT healthy_streak=0
+[ML] run=270 repeats=1 total_cycles=626843168 avg_cycles=626843168 mode=PROTECT
+[RT] run=352 exec_ms=10 lateness_ms=590 gap_ms=730 misses=251 mode=PROTECT healthy_streak=0
+[ML] run=271 repeats=1 total_cycles=626854496 avg_cycles=626854496 mode=PROTECT
+[RT] run=353 exec_ms=10 lateness_ms=520 gap_ms=730 misses=252 mode=PROTECT healthy_streak=0
+[RT] run=354 exec_ms=0 lateness_ms=10 gap_ms=90 misses=252 mode=PROTECT healthy_streak=1
+[ML] run=272 repeats=1 total_cycles=627003520 avg_cycles=627003520 mode=PROTECT
+[RT] run=355 exec_ms=10 lateness_ms=450 gap_ms=640 misses=253 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=272 rt_runs=355 rt_misses=253 mode=PROTECT healthy_streak=0
+[ML] run=273 repeats=1 total_cycles=627317920 avg_cycles=627317920 mode=PROTECT
+[RT] run=356 exec_ms=10 lateness_ms=580 gap_ms=730 misses=254 mode=PROTECT healthy_streak=0
+[RT] run=357 exec_ms=0 lateness_ms=10 gap_ms=30 misses=254 mode=PROTECT healthy_streak=1
+[ML] run=274 repeats=1 total_cycles=626796000 avg_cycles=626796000 mode=PROTECT
+[RT] run=358 exec_ms=10 lateness_ms=510 gap_ms=700 misses=255 mode=PROTECT healthy_streak=0
+[RT] run=359 exec_ms=0 lateness_ms=10 gap_ms=100 misses=255 mode=PROTECT healthy_streak=1
+[ML] run=275 repeats=1 total_cycles=626939872 avg_cycles=626939872 mode=PROTECT
+[RT] run=360 exec_ms=10 lateness_ms=440 gap_ms=630 misses=256 mode=PROTECT healthy_streak=0
+[ML] run=276 repeats=1 total_cycles=626904416 avg_cycles=626904416 mode=PROTECT
+[RT] run=361 exec_ms=10 lateness_ms=570 gap_ms=730 misses=257 mode=PROTECT healthy_streak=0
+[RT] run=362 exec_ms=0 lateness_ms=10 gap_ms=40 misses=257 mode=PROTECT healthy_streak=1
+[ML] run=277 repeats=1 total_cycles=626667296 avg_cycles=626667296 mode=PROTECT
+[RT] run=363 exec_ms=10 lateness_ms=500 gap_ms=690 misses=258 mode=PROTECT healthy_streak=0
+[ML] run=278 repeats=1 total_cycles=626869856 avg_cycles=626869856 mode=PROTECT
+[RT] run=364 exec_ms=10 lateness_ms=630 gap_ms=730 misses=259 mode=PROTECT healthy_streak=0
+[ML] run=279 repeats=1 total_cycles=626926880 avg_cycles=626926880 mode=PROTECT
+[RT] run=365 exec_ms=10 lateness_ms=560 gap_ms=730 misses=260 mode=PROTECT healthy_streak=0
+[RT] run=366 exec_ms=0 lateness_ms=10 gap_ms=50 misses=260 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=279 rt_runs=366 rt_misses=260 mode=PROTECT healthy_streak=1
+[ML] run=280 repeats=1 total_cycles=627138912 avg_cycles=627138912 mode=PROTECT
+[RT] run=367 exec_ms=10 lateness_ms=490 gap_ms=680 misses=261 mode=PROTECT healthy_streak=0
+[ML] run=281 repeats=1 total_cycles=626812448 avg_cycles=626812448 mode=PROTECT
+[RT] run=368 exec_ms=10 lateness_ms=620 gap_ms=730 misses=262 mode=PROTECT healthy_streak=0
+[ML] run=282 repeats=1 total_cycles=626828512 avg_cycles=626828512 mode=PROTECT
+[RT] run=369 exec_ms=10 lateness_ms=550 gap_ms=730 misses=263 mode=PROTECT healthy_streak=0
+[RT] run=370 exec_ms=0 lateness_ms=10 gap_ms=60 misses=263 mode=PROTECT healthy_streak=1
+[ML] run=283 repeats=1 total_cycles=626941824 avg_cycles=626941824 mode=PROTECT
+[RT] run=371 exec_ms=10 lateness_ms=480 gap_ms=670 misses=264 mode=PROTECT healthy_streak=0
+[ML] run=284 repeats=1 total_cycles=626900512 avg_cycles=626900512 mode=PROTECT
+[RT] run=372 exec_ms=10 lateness_ms=610 gap_ms=730 misses=265 mode=PROTECT healthy_streak=0
+[ML] run=285 repeats=1 total_cycles=626903872 avg_cycles=626903872 mode=PROTECT
+[RT] run=373 exec_ms=10 lateness_ms=540 gap_ms=730 misses=266 mode=PROTECT healthy_streak=0
+[RT] run=374 exec_ms=0 lateness_ms=10 gap_ms=70 misses=266 mode=PROTECT healthy_streak=1
+[ML] run=286 repeats=1 total_cycles=626870016 avg_cycles=626870016 mode=PROTECT
+[RT] run=375 exec_ms=10 lateness_ms=470 gap_ms=660 misses=267 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=286 rt_runs=375 rt_misses=267 mode=PROTECT healthy_streak=0
+[ML] run=287 repeats=1 total_cycles=626856448 avg_cycles=626856448 mode=PROTECT
+[RT] run=376 exec_ms=10 lateness_ms=600 gap_ms=730 misses=268 mode=PROTECT healthy_streak=0
+[ML] run=288 repeats=1 total_cycles=626826880 avg_cycles=626826880 mode=PROTECT
+[RT] run=377 exec_ms=10 lateness_ms=530 gap_ms=730 misses=269 mode=PROTECT healthy_streak=0
+[RT] run=378 exec_ms=0 lateness_ms=10 gap_ms=80 misses=269 mode=PROTECT healthy_streak=1
+[ML] run=289 repeats=1 total_cycles=626874144 avg_cycles=626874144 mode=PROTECT
+[RT] run=379 exec_ms=10 lateness_ms=460 gap_ms=650 misses=270 mode=PROTECT healthy_streak=0
+[ML] run=290 repeats=1 total_cycles=626843936 avg_cycles=626843936 mode=PROTECT
+[RT] run=380 exec_ms=10 lateness_ms=590 gap_ms=730 misses=271 mode=PROTECT healthy_streak=0
+[ML] run=291 repeats=1 total_cycles=626840832 avg_cycles=626840832 mode=PROTECT
+[RT] run=381 exec_ms=10 lateness_ms=520 gap_ms=730 misses=272 mode=PROTECT healthy_streak=0
+[RT] run=382 exec_ms=0 lateness_ms=10 gap_ms=90 misses=272 mode=PROTECT healthy_streak=1
+[ML] run=292 repeats=1 total_cycles=626873568 avg_cycles=626873568 mode=PROTECT
+[RT] run=383 exec_ms=10 lateness_ms=450 gap_ms=640 misses=273 mode=PROTECT healthy_streak=0
+[ML] run=293 repeats=1 total_cycles=626739328 avg_cycles=626739328 mode=PROTECT
+[SUMMARY] ml_runs=293 rt_runs=383 rt_misses=274 mode=PROTECT healthy_streak=0
+[RT] run=384 exec_ms=10 lateness_ms=580 gap_ms=730 misses=274 mode=PROTECT healthy_streak=0
+[RT] run=385 exec_ms=0 lateness_ms=10 gap_ms=30 misses=274 mode=PROTECT healthy_streak=1
+[ML] run=294 repeats=1 total_cycles=626796832 avg_cycles=626796832 mode=PROTECT
+[RT] run=386 exec_ms=10 lateness_ms=510 gap_ms=700 misses=275 mode=PROTECT healthy_streak=0
+[RT] run=387 exec_ms=0 lateness_ms=10 gap_ms=100 misses=275 mode=PROTECT healthy_streak=1
+[ML] run=295 repeats=1 total_cycles=626975552 avg_cycles=626975552 mode=PROTECT
+[RT] run=388 exec_ms=10 lateness_ms=440 gap_ms=630 misses=276 mode=PROTECT healthy_streak=0
+[ML] run=296 repeats=1 total_cycles=626890848 avg_cycles=626890848 mode=PROTECT
+[RT] run=389 exec_ms=10 lateness_ms=570 gap_ms=730 misses=277 mode=PROTECT healthy_streak=0
+[RT] run=390 exec_ms=0 lateness_ms=10 gap_ms=40 misses=277 mode=PROTECT healthy_streak=1
+[ML] run=297 repeats=1 total_cycles=626688640 avg_cycles=626688640 mode=PROTECT
+[RT] run=391 exec_ms=10 lateness_ms=500 gap_ms=690 misses=278 mode=PROTECT healthy_streak=0
+[ML] run=298 repeats=1 total_cycles=626724896 avg_cycles=626724896 mode=PROTECT
+[RT] run=392 exec_ms=10 lateness_ms=630 gap_ms=730 misses=279 mode=PROTECT healthy_streak=0
+[ML] run=299 repeats=1 total_cycles=626878944 avg_cycles=626878944 mode=PROTECT
+[RT] run=393 exec_ms=10 lateness_ms=560 gap_ms=730 misses=280 mode=PROTECT healthy_streak=0
+[RT] run=394 exec_ms=0 lateness_ms=10 gap_ms=50 misses=280 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=299 rt_runs=394 rt_misses=280 mode=PROTECT healthy_streak=1
+[ML] run=300 repeats=1 total_cycles=627038848 avg_cycles=627038848 mode=PROTECT
+[RT] run=395 exec_ms=10 lateness_ms=490 gap_ms=680 misses=281 mode=PROTECT healthy_streak=0
+[ML] run=301 repeats=1 total_cycles=626854048 avg_cycles=626854048 mode=PROTECT
+[RT] run=396 exec_ms=10 lateness_ms=620 gap_ms=730 misses=282 mode=PROTECT healthy_streak=0
+[ML] run=302 repeats=1 total_cycles=626864960 avg_cycles=626864960 mode=PROTECT
+[RT] run=397 exec_ms=10 lateness_ms=550 gap_ms=730 misses=283 mode=PROTECT healthy_streak=0
+[RT] run=398 exec_ms=0 lateness_ms=10 gap_ms=60 misses=283 mode=PROTECT healthy_streak=1
+[ML] run=303 repeats=1 total_cycles=626764672 avg_cycles=626764672 mode=PROTECT
+[RT] run=399 exec_ms=10 lateness_ms=480 gap_ms=670 misses=284 mode=PROTECT healthy_streak=0
+[ML] run=304 repeats=1 total_cycles=626784416 avg_cycles=626784416 mode=PROTECT
+[RT] run=400 exec_ms=10 lateness_ms=610 gap_ms=730 misses=285 mode=PROTECT healthy_streak=0
+[ML] run=305 repeats=1 total_cycles=626785152 avg_cycles=626785152 mode=PROTECT
+[RT] run=401 exec_ms=10 lateness_ms=540 gap_ms=730 misses=286 mode=PROTECT healthy_streak=0
+[RT] run=402 exec_ms=0 lateness_ms=10 gap_ms=70 misses=286 mode=PROTECT healthy_streak=1
+[ML] run=306 repeats=1 total_cycles=626844864 avg_cycles=626844864 mode=PROTECT
+[RT] run=403 exec_ms=10 lateness_ms=470 gap_ms=660 misses=287 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=306 rt_runs=403 rt_misses=287 mode=PROTECT healthy_streak=0
+[ML] run=307 repeats=1 total_cycles=627505312 avg_cycles=627505312 mode=PROTECT
+[RT] run=404 exec_ms=10 lateness_ms=600 gap_ms=730 misses=288 mode=PROTECT healthy_streak=0
+[ML] run=308 repeats=1 total_cycles=627335328 avg_cycles=627335328 mode=PROTECT
+[RT] run=405 exec_ms=10 lateness_ms=530 gap_ms=730 misses=289 mode=PROTECT healthy_streak=0
+[RT] run=406 exec_ms=0 lateness_ms=10 gap_ms=80 misses=289 mode=PROTECT healthy_streak=1
+[ML] run=309 repeats=1 total_cycles=627236672 avg_cycles=627236672 mode=PROTECT
+[RT] run=407 exec_ms=10 lateness_ms=460 gap_ms=650 misses=290 mode=PROTECT healthy_streak=0
+[ML] run=310 repeats=1 total_cycles=627278880 avg_cycles=627278880 mode=PROTECT
+[RT] run=408 exec_ms=10 lateness_ms=590 gap_ms=730 misses=291 mode=PROTECT healthy_streak=0
+[ML] run=311 repeats=1 total_cycles=627445408 avg_cycles=627445408 mode=PROTECT
+[RT] run=409 exec_ms=10 lateness_ms=520 gap_ms=730 misses=292 mode=PROTECT healthy_streak=0
+[RT] run=410 exec_ms=0 lateness_ms=10 gap_ms=90 misses=292 mode=PROTECT healthy_streak=1
+[ML] run=312 repeats=1 total_cycles=627402240 avg_cycles=627402240 mode=PROTECT
+[RT] run=411 exec_ms=10 lateness_ms=450 gap_ms=640 misses=293 mode=PROTECT healthy_streak=0
+[ML] run=313 repeats=1 total_cycles=627139648 avg_cycles=627139648 mode=PROTECT
+[RT] run=412 exec_ms=10 lateness_ms=580 gap_ms=730 misses=294 mode=PROTECT healthy_streak=0
+[RT] run=413 exec_ms=0 lateness_ms=10 gap_ms=30 misses=294 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=313 rt_runs=413 rt_misses=294 mode=PROTECT healthy_streak=1
+[ML] run=314 repeats=1 total_cycles=627243712 avg_cycles=627243712 mode=PROTECT
+[RT] run=414 exec_ms=10 lateness_ms=510 gap_ms=700 misses=295 mode=PROTECT healthy_streak=0
+[RT] run=415 exec_ms=0 lateness_ms=10 gap_ms=100 misses=295 mode=PROTECT healthy_streak=1
+[ML] run=315 repeats=1 total_cycles=627063808 avg_cycles=627063808 mode=PROTECT
+[RT] run=416 exec_ms=10 lateness_ms=440 gap_ms=630 misses=296 mode=PROTECT healthy_streak=0
+[ML] run=316 repeats=1 total_cycles=626926944 avg_cycles=626926944 mode=PROTECT
+[RT] run=417 exec_ms=10 lateness_ms=570 gap_ms=730 misses=297 mode=PROTECT healthy_streak=0
+[RT] run=418 exec_ms=0 lateness_ms=10 gap_ms=40 misses=297 mode=PROTECT healthy_streak=1
+[ML] run=317 repeats=1 total_cycles=627039648 avg_cycles=627039648 mode=PROTECT
+[RT] run=419 exec_ms=10 lateness_ms=500 gap_ms=690 misses=298 mode=PROTECT healthy_streak=0
+[ML] run=318 repeats=1 total_cycles=627144096 avg_cycles=627144096 mode=PROTECT
+[RT] run=420 exec_ms=10 lateness_ms=630 gap_ms=730 misses=299 mode=PROTECT healthy_streak=0
+[ML] run=319 repeats=1 total_cycles=627046176 avg_cycles=627046176 mode=PROTECT
+[RT] run=421 exec_ms=10 lateness_ms=560 gap_ms=730 misses=300 mode=PROTECT healthy_streak=0
+[RT] run=422 exec_ms=0 lateness_ms=10 gap_ms=50 misses=300 mode=PROTECT healthy_streak=1
+[ML] run=320 repeats=1 total_cycles=627004256 avg_cycles=627004256 mode=PROTECT
+[RT] run=423 exec_ms=10 lateness_ms=490 gap_ms=680 misses=301 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=320 rt_runs=423 rt_misses=301 mode=PROTECT healthy_streak=0
+[ML] run=321 repeats=1 total_cycles=627333216 avg_cycles=627333216 mode=PROTECT
+[RT] run=424 exec_ms=10 lateness_ms=620 gap_ms=730 misses=302 mode=PROTECT healthy_streak=0
+[ML] run=322 repeats=1 total_cycles=627046304 avg_cycles=627046304 mode=PROTECT
+[RT] run=425 exec_ms=10 lateness_ms=550 gap_ms=730 misses=303 mode=PROTECT healthy_streak=0
+[RT] run=426 exec_ms=0 lateness_ms=10 gap_ms=60 misses=303 mode=PROTECT healthy_streak=1
+[ML] run=323 repeats=1 total_cycles=627032672 avg_cycles=627032672 mode=PROTECT
+[RT] run=427 exec_ms=10 lateness_ms=480 gap_ms=670 misses=304 mode=PROTECT healthy_streak=0
+[ML] run=324 repeats=1 total_cycles=627038592 avg_cycles=627038592 mode=PROTECT
+[RT] run=428 exec_ms=10 lateness_ms=610 gap_ms=730 misses=305 mode=PROTECT healthy_streak=0
+[ML] run=325 repeats=1 total_cycles=626919168 avg_cycles=626919168 mode=PROTECT
+[RT] run=429 exec_ms=10 lateness_ms=540 gap_ms=730 misses=306 mode=PROTECT healthy_streak=0
+[RT] run=430 exec_ms=0 lateness_ms=10 gap_ms=70 misses=306 mode=PROTECT healthy_streak=1
+[ML] run=326 repeats=1 total_cycles=626981408 avg_cycles=626981408 mode=PROTECT
+[RT] run=431 exec_ms=10 lateness_ms=470 gap_ms=660 misses=307 mode=PROTECT healthy_streak=0
+[ML] run=327 repeats=1 total_cycles=627005600 avg_cycles=627005600 mode=PROTECT
+[RT] run=432 exec_ms=10 lateness_ms=600 gap_ms=730 misses=308 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=327 rt_runs=432 rt_misses=308 mode=PROTECT healthy_streak=0
+[ML] run=328 repeats=1 total_cycles=627341056 avg_cycles=627341056 mode=PROTECT
+[RT] run=433 exec_ms=10 lateness_ms=530 gap_ms=730 misses=309 mode=PROTECT healthy_streak=0
+[RT] run=434 exec_ms=0 lateness_ms=10 gap_ms=80 misses=309 mode=PROTECT healthy_streak=1
+[ML] run=329 repeats=1 total_cycles=627008832 avg_cycles=627008832 mode=PROTECT
+[RT] run=435 exec_ms=10 lateness_ms=460 gap_ms=650 misses=310 mode=PROTECT healthy_streak=0
+[ML] run=330 repeats=1 total_cycles=626986400 avg_cycles=626986400 mode=PROTECT
+[RT] run=436 exec_ms=10 lateness_ms=590 gap_ms=730 misses=311 mode=PROTECT healthy_streak=0
+[ML] run=331 repeats=1 total_cycles=627016384 avg_cycles=627016384 mode=PROTECT
+[RT] run=437 exec_ms=10 lateness_ms=520 gap_ms=730 misses=312 mode=PROTECT healthy_streak=0
+[RT] run=438 exec_ms=0 lateness_ms=10 gap_ms=90 misses=312 mode=PROTECT healthy_streak=1
+[ML] run=332 repeats=1 total_cycles=626832096 avg_cycles=626832096 mode=PROTECT
+[RT] run=439 exec_ms=10 lateness_ms=450 gap_ms=640 misses=313 mode=PROTECT healthy_streak=0
+[ML] run=333 repeats=1 total_cycles=626844544 avg_cycles=626844544 mode=PROTECT
+[RT] run=440 exec_ms=10 lateness_ms=580 gap_ms=730 misses=314 mode=PROTECT healthy_streak=0
+[RT] run=441 exec_ms=0 lateness_ms=10 gap_ms=30 misses=314 mode=PROTECT healthy_streak=1
+[ML] run=334 repeats=1 total_cycles=627009536 avg_cycles=627009536 mode=PROTECT
+[RT] run=442 exec_ms=10 lateness_ms=510 gap_ms=700 misses=315 mode=PROTECT healthy_streak=0
+[RT] run=443 exec_ms=0 lateness_ms=10 gap_ms=100 misses=315 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=334 rt_runs=443 rt_misses=315 mode=PROTECT healthy_streak=1
+[ML] run=335 repeats=1 total_cycles=627415296 avg_cycles=627415296 mode=PROTECT
+[RT] run=444 exec_ms=10 lateness_ms=440 gap_ms=630 misses=316 mode=PROTECT healthy_streak=0
+[ML] run=336 repeats=1 total_cycles=626724800 avg_cycles=626724800 mode=PROTECT
+[RT] run=445 exec_ms=10 lateness_ms=570 gap_ms=730 misses=317 mode=PROTECT healthy_streak=0
+[RT] run=446 exec_ms=0 lateness_ms=10 gap_ms=40 misses=317 mode=PROTECT healthy_streak=1
+[ML] run=337 repeats=1 total_cycles=626728768 avg_cycles=626728768 mode=PROTECT
+[RT] run=447 exec_ms=10 lateness_ms=500 gap_ms=690 misses=318 mode=PROTECT healthy_streak=0
+[ML] run=338 repeats=1 total_cycles=626913952 avg_cycles=626913952 mode=PROTECT
+[RT] run=448 exec_ms=10 lateness_ms=630 gap_ms=730 misses=319 mode=PROTECT healthy_streak=0
+[ML] run=339 repeats=1 total_cycles=626786240 avg_cycles=626786240 mode=PROTECT
+[RT] run=449 exec_ms=10 lateness_ms=560 gap_ms=730 misses=320 mode=PROTECT healthy_streak=0
+[RT] run=450 exec_ms=0 lateness_ms=10 gap_ms=50 misses=320 mode=PROTECT healthy_streak=1
+[ML] run=340 repeats=1 total_cycles=626856832 avg_cycles=626856832 mode=PROTECT
+[RT] run=451 exec_ms=10 lateness_ms=490 gap_ms=680 misses=321 mode=PROTECT healthy_streak=0
+[ML] run=341 repeats=1 total_cycles=627017568 avg_cycles=627017568 mode=PROTECT
+[RT] run=452 exec_ms=10 lateness_ms=620 gap_ms=730 misses=322 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=341 rt_runs=452 rt_misses=322 mode=PROTECT healthy_streak=0
+[ML] run=342 repeats=1 total_cycles=626974048 avg_cycles=626974048 mode=PROTECT
+[RT] run=453 exec_ms=10 lateness_ms=550 gap_ms=730 misses=323 mode=PROTECT healthy_streak=0
+[RT] run=454 exec_ms=0 lateness_ms=10 gap_ms=60 misses=323 mode=PROTECT healthy_streak=1
+[ML] run=343 repeats=1 total_cycles=626866336 avg_cycles=626866336 mode=PROTECT
+[RT] run=455 exec_ms=10 lateness_ms=480 gap_ms=670 misses=324 mode=PROTECT healthy_streak=0
+[ML] run=344 repeats=1 total_cycles=626902848 avg_cycles=626902848 mode=PROTECT
+[RT] run=456 exec_ms=10 lateness_ms=610 gap_ms=730 misses=325 mode=PROTECT healthy_streak=0
+[ML] run=345 repeats=1 total_cycles=626965696 avg_cycles=626965696 mode=PROTECT
+[RT] run=457 exec_ms=10 lateness_ms=540 gap_ms=730 misses=326 mode=PROTECT healthy_streak=0
+[RT] run=458 exec_ms=0 lateness_ms=10 gap_ms=70 misses=326 mode=PROTECT healthy_streak=1
+[ML] run=346 repeats=1 total_cycles=626994496 avg_cycles=626994496 mode=PROTECT
+[RT] run=459 exec_ms=10 lateness_ms=470 gap_ms=660 misses=327 mode=PROTECT healthy_streak=0
+[ML] run=347 repeats=1 total_cycles=627011648 avg_cycles=627011648 mode=PROTECT
+[RT] run=460 exec_ms=10 lateness_ms=600 gap_ms=730 misses=328 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=347 rt_runs=460 rt_misses=328 mode=PROTECT healthy_streak=0
+[ML] run=348 repeats=1 total_cycles=627217792 avg_cycles=627217792 mode=PROTECT
+[RT] run=461 exec_ms=10 lateness_ms=530 gap_ms=730 misses=329 mode=PROTECT healthy_streak=0
+[RT] run=462 exec_ms=0 lateness_ms=10 gap_ms=80 misses=329 mode=PROTECT healthy_streak=1
+[ML] run=349 repeats=1 total_cycles=626827200 avg_cycles=626827200 mode=PROTECT
+[RT] run=463 exec_ms=10 lateness_ms=460 gap_ms=650 misses=330 mode=PROTECT healthy_streak=0
+[ML] run=350 repeats=1 total_cycles=626960672 avg_cycles=626960672 mode=PROTECT
+[RT] run=464 exec_ms=10 lateness_ms=590 gap_ms=730 misses=331 mode=PROTECT healthy_streak=0
+[ML] run=351 repeats=1 total_cycles=627111744 avg_cycles=627111744 mode=PROTECT
+[RT] run=465 exec_ms=10 lateness_ms=520 gap_ms=730 misses=332 mode=PROTECT healthy_streak=0
+[RT] run=466 exec_ms=0 lateness_ms=10 gap_ms=90 misses=332 mode=PROTECT healthy_streak=1
+[ML] run=352 repeats=1 total_cycles=626856640 avg_cycles=626856640 mode=PROTECT
+[RT] run=467 exec_ms=10 lateness_ms=450 gap_ms=640 misses=333 mode=PROTECT healthy_streak=0
+[ML] run=353 repeats=1 total_cycles=627035328 avg_cycles=627035328 mode=PROTECT
+[RT] run=468 exec_ms=10 lateness_ms=580 gap_ms=730 misses=334 mode=PROTECT healthy_streak=0
+[RT] run=469 exec_ms=0 lateness_ms=10 gap_ms=30 misses=334 mode=PROTECT healthy_streak=1
+[ML] run=354 repeats=1 total_cycles=627007552 avg_cycles=627007552 mode=PROTECT
+[RT] run=470 exec_ms=10 lateness_ms=510 gap_ms=700 misses=335 mode=PROTECT healthy_streak=0
+[RT] run=471 exec_ms=0 lateness_ms=10 gap_ms=100 misses=335 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=354 rt_runs=471 rt_misses=335 mode=PROTECT healthy_streak=1
+[ML] run=355 repeats=1 total_cycles=627317920 avg_cycles=627317920 mode=PROTECT
+[RT] run=472 exec_ms=10 lateness_ms=440 gap_ms=630 misses=336 mode=PROTECT healthy_streak=0
+[ML] run=356 repeats=1 total_cycles=626902016 avg_cycles=626902016 mode=PROTECT
+[RT] run=473 exec_ms=10 lateness_ms=570 gap_ms=730 misses=337 mode=PROTECT healthy_streak=0
+[RT] run=474 exec_ms=0 lateness_ms=10 gap_ms=40 misses=337 mode=PROTECT healthy_streak=1
+[ML] run=357 repeats=1 total_cycles=627182432 avg_cycles=627182432 mode=PROTECT
+[RT] run=475 exec_ms=10 lateness_ms=500 gap_ms=690 misses=338 mode=PROTECT healthy_streak=0
+[ML] run=358 repeats=1 total_cycles=627014720 avg_cycles=627014720 mode=PROTECT
+[RT] run=476 exec_ms=10 lateness_ms=630 gap_ms=730 misses=339 mode=PROTECT healthy_streak=0
+[ML] run=359 repeats=1 total_cycles=626947872 avg_cycles=626947872 mode=PROTECT
+[RT] run=477 exec_ms=10 lateness_ms=560 gap_ms=730 misses=340 mode=PROTECT healthy_streak=0
+[RT] run=478 exec_ms=0 lateness_ms=10 gap_ms=50 misses=340 mode=PROTECT healthy_streak=1
+[ML] run=360 repeats=1 total_cycles=626935904 avg_cycles=626935904 mode=PROTECT
+[RT] run=479 exec_ms=10 lateness_ms=490 gap_ms=680 misses=341 mode=PROTECT healthy_streak=0
+[ML] run=361 repeats=1 total_cycles=626994336 avg_cycles=626994336 mode=PROTECT
+[RT] run=480 exec_ms=10 lateness_ms=620 gap_ms=730 misses=342 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=361 rt_runs=480 rt_misses=342 mode=PROTECT healthy_streak=0
+[ML] run=362 repeats=1 total_cycles=627426528 avg_cycles=627426528 mode=PROTECT
+[RT] run=481 exec_ms=10 lateness_ms=550 gap_ms=730 misses=343 mode=PROTECT healthy_streak=0
+[RT] run=482 exec_ms=0 lateness_ms=10 gap_ms=60 misses=343 mode=PROTECT healthy_streak=1
+[ML] run=363 repeats=1 total_cycles=627020352 avg_cycles=627020352 mode=PROTECT
+[RT] run=483 exec_ms=10 lateness_ms=480 gap_ms=670 misses=344 mode=PROTECT healthy_streak=0
+[ML] run=364 repeats=1 total_cycles=627000224 avg_cycles=627000224 mode=PROTECT
+[RT] run=484 exec_ms=10 lateness_ms=610 gap_ms=730 misses=345 mode=PROTECT healthy_streak=0
+[ML] run=365 repeats=1 total_cycles=626926496 avg_cycles=626926496 mode=PROTECT
+[RT] run=485 exec_ms=10 lateness_ms=540 gap_ms=730 misses=346 mode=PROTECT healthy_streak=0
+[RT] run=486 exec_ms=0 lateness_ms=10 gap_ms=70 misses=346 mode=PROTECT healthy_streak=1
+[ML] run=366 repeats=1 total_cycles=626944480 avg_cycles=626944480 mode=PROTECT
+[RT] run=487 exec_ms=10 lateness_ms=470 gap_ms=660 misses=347 mode=PROTECT healthy_streak=0
+[ML] run=367 repeats=1 total_cycles=626966336 avg_cycles=626966336 mode=PROTECT
+[RT] run=488 exec_ms=10 lateness_ms=600 gap_ms=730 misses=348 mode=PROTECT healthy_streak=0
+[ML] run=368 repeats=1 total_cycles=626915232 avg_cycles=626915232 mode=PROTECT
+[RT] run=489 exec_ms=10 lateness_ms=530 gap_ms=730 misses=349 mode=PROTECT healthy_streak=0
+[RT] run=490 exec_ms=0 lateness_ms=10 gap_ms=80 misses=349 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=368 rt_runs=490 rt_misses=349 mode=PROTECT healthy_streak=1
+[ML] run=369 repeats=1 total_cycles=627592352 avg_cycles=627592352 mode=PROTECT
+[RT] run=491 exec_ms=10 lateness_ms=460 gap_ms=650 misses=350 mode=PROTECT healthy_streak=0
+[ML] run=370 repeats=1 total_cycles=627529184 avg_cycles=627529184 mode=PROTECT
+[RT] run=492 exec_ms=10 lateness_ms=590 gap_ms=730 misses=351 mode=PROTECT healthy_streak=0
+[ML] run=371 repeats=1 total_cycles=627449920 avg_cycles=627449920 mode=PROTECT
+[RT] run=493 exec_ms=10 lateness_ms=520 gap_ms=730 misses=352 mode=PROTECT healthy_streak=0
+[RT] run=494 exec_ms=0 lateness_ms=10 gap_ms=90 misses=352 mode=PROTECT healthy_streak=1
+[ML] run=372 repeats=1 total_cycles=626817120 avg_cycles=626817120 mode=PROTECT
+[RT] run=495 exec_ms=10 lateness_ms=450 gap_ms=640 misses=353 mode=PROTECT healthy_streak=0
+[ML] run=373 repeats=1 total_cycles=627110368 avg_cycles=627110368 mode=PROTECT
+[RT] run=496 exec_ms=10 lateness_ms=580 gap_ms=730 misses=354 mode=PROTECT healthy_streak=0
+[RT] run=497 exec_ms=0 lateness_ms=10 gap_ms=30 misses=354 mode=PROTECT healthy_streak=1
+[ML] run=374 repeats=1 total_cycles=627104640 avg_cycles=627104640 mode=PROTECT
+[RT] run=498 exec_ms=10 lateness_ms=510 gap_ms=700 misses=355 mode=PROTECT healthy_streak=0
+[RT] run=499 exec_ms=0 lateness_ms=10 gap_ms=100 misses=355 mode=PROTECT healthy_streak=1
+[ML] run=375 repeats=1 total_cycles=626927072 avg_cycles=626927072 mode=PROTECT
+[RT] run=500 exec_ms=10 lateness_ms=440 gap_ms=630 misses=356 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=375 rt_runs=500 rt_misses=356 mode=PROTECT healthy_streak=0
+[ML] run=376 repeats=1 total_cycles=627222240 avg_cycles=627222240 mode=PROTECT
+[RT] run=501 exec_ms=10 lateness_ms=570 gap_ms=730 misses=357 mode=PROTECT healthy_streak=0
+[RT] run=502 exec_ms=0 lateness_ms=10 gap_ms=40 misses=357 mode=PROTECT healthy_streak=1
+[ML] run=377 repeats=1 total_cycles=626959456 avg_cycles=626959456 mode=PROTECT
+[RT] run=503 exec_ms=10 lateness_ms=500 gap_ms=690 misses=358 mode=PROTECT healthy_streak=0
+[ML] run=378 repeats=1 total_cycles=626945280 avg_cycles=626945280 mode=PROTECT
+[RT] run=504 exec_ms=10 lateness_ms=630 gap_ms=730 misses=359 mode=PROTECT healthy_streak=0
+[ML] run=379 repeats=1 total_cycles=627004256 avg_cycles=627004256 mode=PROTECT
+[RT] run=505 exec_ms=10 lateness_ms=560 gap_ms=730 misses=360 mode=PROTECT healthy_streak=0
+[RT] run=506 exec_ms=0 lateness_ms=10 gap_ms=50 misses=360 mode=PROTECT healthy_streak=1
+[ML] run=380 repeats=1 total_cycles=627076096 avg_cycles=627076096 mode=PROTECT
+[RT] run=507 exec_ms=10 lateness_ms=490 gap_ms=680 misses=361 mode=PROTECT healthy_streak=0
+[ML] run=381 repeats=1 total_cycles=626986176 avg_cycles=626986176 mode=PROTECT
+[RT] run=508 exec_ms=10 lateness_ms=620 gap_ms=730 misses=362 mode=PROTECT healthy_streak=0
+[ML] run=382 repeats=1 total_cycles=626987808 avg_cycles=626987808 mode=PROTECT
+[RT] run=509 exec_ms=10 lateness_ms=550 gap_ms=730 misses=363 mode=PROTECT healthy_streak=0
+[RT] run=510 exec_ms=0 lateness_ms=10 gap_ms=60 misses=363 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=382 rt_runs=510 rt_misses=363 mode=PROTECT healthy_streak=1
+[ML] run=383 repeats=1 total_cycles=627237728 avg_cycles=627237728 mode=PROTECT
+[RT] run=511 exec_ms=10 lateness_ms=480 gap_ms=670 misses=364 mode=PROTECT healthy_streak=0
+[ML] run=384 repeats=1 total_cycles=627021344 avg_cycles=627021344 mode=PROTECT
+[RT] run=512 exec_ms=10 lateness_ms=610 gap_ms=730 misses=365 mode=PROTECT healthy_streak=0
+[ML] run=385 repeats=1 total_cycles=627034656 avg_cycles=627034656 mode=PROTECT
+[RT] run=513 exec_ms=10 lateness_ms=540 gap_ms=730 misses=366 mode=PROTECT healthy_streak=0
+[RT] run=514 exec_ms=0 lateness_ms=10 gap_ms=70 misses=366 mode=PROTECT healthy_streak=1
+[ML] run=386 repeats=1 total_cycles=627092704 avg_cycles=627092704 mode=PROTECT
+[RT] run=515 exec_ms=10 lateness_ms=470 gap_ms=660 misses=367 mode=PROTECT healthy_streak=0
+[ML] run=387 repeats=1 total_cycles=626978464 avg_cycles=626978464 mode=PROTECT
+[RT] run=516 exec_ms=10 lateness_ms=600 gap_ms=730 misses=368 mode=PROTECT healthy_streak=0
+[ML] run=388 repeats=1 total_cycles=626910784 avg_cycles=626910784 mode=PROTECT
+[RT] run=517 exec_ms=10 lateness_ms=530 gap_ms=730 misses=369 mode=PROTECT healthy_streak=0
+[RT] run=518 exec_ms=0 lateness_ms=10 gap_ms=80 misses=369 mode=PROTECT healthy_streak=1
+[ML] run=389 repeats=1 total_cycles=627016672 avg_cycles=627016672 mode=PROTECT
+[RT] run=519 exec_ms=10 lateness_ms=460 gap_ms=650 misses=370 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=389 rt_runs=519 rt_misses=370 mode=PROTECT healthy_streak=0
+[ML] run=390 repeats=1 total_cycles=627115648 avg_cycles=627115648 mode=PROTECT
+[RT] run=520 exec_ms=10 lateness_ms=590 gap_ms=730 misses=371 mode=PROTECT healthy_streak=0
+[ML] run=391 repeats=1 total_cycles=627046080 avg_cycles=627046080 mode=PROTECT
+[RT] run=521 exec_ms=10 lateness_ms=520 gap_ms=730 misses=372 mode=PROTECT healthy_streak=0
+[RT] run=522 exec_ms=0 lateness_ms=10 gap_ms=90 misses=372 mode=PROTECT healthy_streak=1
+[ML] run=392 repeats=1 total_cycles=626938176 avg_cycles=626938176 mode=PROTECT
+[RT] run=523 exec_ms=10 lateness_ms=450 gap_ms=640 misses=373 mode=PROTECT healthy_streak=0
+[ML] run=393 repeats=1 total_cycles=627087232 avg_cycles=627087232 mode=PROTECT
+[RT] run=524 exec_ms=10 lateness_ms=580 gap_ms=730 misses=374 mode=PROTECT healthy_streak=0
+[RT] run=525 exec_ms=0 lateness_ms=10 gap_ms=30 misses=374 mode=PROTECT healthy_streak=1
+[ML] run=394 repeats=1 total_cycles=627047584 avg_cycles=627047584 mode=PROTECT
+[RT] run=526 exec_ms=10 lateness_ms=510 gap_ms=700 misses=375 mode=PROTECT healthy_streak=0
+[RT] run=527 exec_ms=0 lateness_ms=10 gap_ms=100 misses=375 mode=PROTECT healthy_streak=1
+[ML] run=395 repeats=1 total_cycles=626859680 avg_cycles=626859680 mode=PROTECT
+[RT] run=528 exec_ms=10 lateness_ms=440 gap_ms=630 misses=376 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=395 rt_runs=528 rt_misses=376 mode=PROTECT healthy_streak=0
+[ML] run=396 repeats=1 total_cycles=627491328 avg_cycles=627491328 mode=PROTECT
+[RT] run=529 exec_ms=10 lateness_ms=570 gap_ms=730 misses=377 mode=PROTECT healthy_streak=0
+[RT] run=530 exec_ms=0 lateness_ms=10 gap_ms=40 misses=377 mode=PROTECT healthy_streak=1
+[ML] run=397 repeats=1 total_cycles=627091968 avg_cycles=627091968 mode=PROTECT
+[RT] run=531 exec_ms=10 lateness_ms=500 gap_ms=690 misses=378 mode=PROTECT healthy_streak=0
+[ML] run=398 repeats=1 total_cycles=627001376 avg_cycles=627001376 mode=PROTECT
+[RT] run=532 exec_ms=10 lateness_ms=630 gap_ms=730 misses=379 mode=PROTECT healthy_streak=0
+[ML] run=399 repeats=1 total_cycles=626865920 avg_cycles=626865920 mode=PROTECT
+[RT] run=533 exec_ms=10 lateness_ms=560 gap_ms=730 misses=380 mode=PROTECT healthy_streak=0
+[RT] run=534 exec_ms=0 lateness_ms=10 gap_ms=50 misses=380 mode=PROTECT healthy_streak=1
+[ML] run=400 repeats=1 total_cycles=626921504 avg_cycles=626921504 mode=PROTECT
+[RT] run=535 exec_ms=10 lateness_ms=490 gap_ms=680 misses=381 mode=PROTECT healthy_streak=0
+[ML] run=401 repeats=1 total_cycles=626993120 avg_cycles=626993120 mode=PROTECT
+[RT] run=536 exec_ms=10 lateness_ms=620 gap_ms=730 misses=382 mode=PROTECT healthy_streak=0
+[ML] run=402 repeats=1 total_cycles=627009120 avg_cycles=627009120 mode=PROTECT
+[RT] run=537 exec_ms=10 lateness_ms=550 gap_ms=730 misses=383 mode=PROTECT healthy_streak=0
+[RT] run=538 exec_ms=0 lateness_ms=10 gap_ms=60 misses=383 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=402 rt_runs=538 rt_misses=383 mode=PROTECT healthy_streak=1
+[ML] run=403 repeats=1 total_cycles=627166176 avg_cycles=627166176 mode=PROTECT
+[RT] run=539 exec_ms=10 lateness_ms=480 gap_ms=670 misses=384 mode=PROTECT healthy_streak=0
+[ML] run=404 repeats=1 total_cycles=626844704 avg_cycles=626844704 mode=PROTECT
+[RT] run=540 exec_ms=10 lateness_ms=610 gap_ms=730 misses=385 mode=PROTECT healthy_streak=0
+[ML] run=405 repeats=1 total_cycles=626890784 avg_cycles=626890784 mode=PROTECT
+[RT] run=541 exec_ms=10 lateness_ms=540 gap_ms=730 misses=386 mode=PROTECT healthy_streak=0
+[RT] run=542 exec_ms=0 lateness_ms=10 gap_ms=70 misses=386 mode=PROTECT healthy_streak=1
+[ML] run=406 repeats=1 total_cycles=626960640 avg_cycles=626960640 mode=PROTECT
+[RT] run=543 exec_ms=10 lateness_ms=470 gap_ms=660 misses=387 mode=PROTECT healthy_streak=0
+[ML] run=407 repeats=1 total_cycles=627087136 avg_cycles=627087136 mode=PROTECT
+[RT] run=544 exec_ms=10 lateness_ms=600 gap_ms=730 misses=388 mode=PROTECT healthy_streak=0
+[ML] run=408 repeats=1 total_cycles=627088512 avg_cycles=627088512 mode=PROTECT
+[RT] run=545 exec_ms=10 lateness_ms=530 gap_ms=730 misses=389 mode=PROTECT healthy_streak=0
+[RT] run=546 exec_ms=0 lateness_ms=10 gap_ms=80 misses=389 mode=PROTECT healthy_streak=1
+[ML] run=409 repeats=1 total_cycles=627116448 avg_cycles=627116448 mode=PROTECT
+[RT] run=547 exec_ms=10 lateness_ms=460 gap_ms=650 misses=390 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=409 rt_runs=547 rt_misses=390 mode=PROTECT healthy_streak=0
+[ML] run=410 repeats=1 total_cycles=627466496 avg_cycles=627466496 mode=PROTECT
+[RT] run=548 exec_ms=10 lateness_ms=590 gap_ms=730 misses=391 mode=PROTECT healthy_streak=0
+[ML] run=411 repeats=1 total_cycles=626889184 avg_cycles=626889184 mode=PROTECT
+[RT] run=549 exec_ms=10 lateness_ms=520 gap_ms=730 misses=392 mode=PROTECT healthy_streak=0
+[RT] run=550 exec_ms=0 lateness_ms=10 gap_ms=90 misses=392 mode=PROTECT healthy_streak=1
+[ML] run=412 repeats=1 total_cycles=627035744 avg_cycles=627035744 mode=PROTECT
+[RT] run=551 exec_ms=10 lateness_ms=450 gap_ms=640 misses=393 mode=PROTECT healthy_streak=0
+[ML] run=413 repeats=1 total_cycles=627105792 avg_cycles=627105792 mode=PROTECT
+[RT] run=552 exec_ms=10 lateness_ms=580 gap_ms=730 misses=394 mode=PROTECT healthy_streak=0
+[RT] run=553 exec_ms=0 lateness_ms=10 gap_ms=30 misses=394 mode=PROTECT healthy_streak=1
+[ML] run=414 repeats=1 total_cycles=626912032 avg_cycles=626912032 mode=PROTECT
+[RT] run=554 exec_ms=10 lateness_ms=510 gap_ms=700 misses=395 mode=PROTECT healthy_streak=0
+[RT] run=555 exec_ms=0 lateness_ms=10 gap_ms=100 misses=395 mode=PROTECT healthy_streak=1
+[ML] run=415 repeats=1 total_cycles=626711808 avg_cycles=626711808 mode=PROTECT
+[RT] run=556 exec_ms=10 lateness_ms=440 gap_ms=630 misses=396 mode=PROTECT healthy_streak=0
+[ML] run=416 repeats=1 total_cycles=626920288 avg_cycles=626920288 mode=PROTECT
+[RT] run=557 exec_ms=10 lateness_ms=570 gap_ms=730 misses=397 mode=PROTECT healthy_streak=0
+[RT] run=558 exec_ms=0 lateness_ms=10 gap_ms=40 misses=397 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=416 rt_runs=558 rt_misses=397 mode=PROTECT healthy_streak=1
+[ML] run=417 repeats=1 total_cycles=627266112 avg_cycles=627266112 mode=PROTECT
+[RT] run=559 exec_ms=10 lateness_ms=500 gap_ms=690 misses=398 mode=PROTECT healthy_streak=0
+[ML] run=418 repeats=1 total_cycles=626926496 avg_cycles=626926496 mode=PROTECT
+[RT] run=560 exec_ms=10 lateness_ms=630 gap_ms=730 misses=399 mode=PROTECT healthy_streak=0
+[ML] run=419 repeats=1 total_cycles=626983328 avg_cycles=626983328 mode=PROTECT
+[RT] run=561 exec_ms=10 lateness_ms=560 gap_ms=730 misses=400 mode=PROTECT healthy_streak=0
+[RT] run=562 exec_ms=0 lateness_ms=10 gap_ms=50 misses=400 mode=PROTECT healthy_streak=1
+[ML] run=420 repeats=1 total_cycles=631503104 avg_cycles=631503104 mode=PROTECT
+[RT] run=563 exec_ms=0 lateness_ms=500 gap_ms=690 misses=401 mode=PROTECT healthy_streak=0
+[ML] run=421 repeats=1 total_cycles=631521728 avg_cycles=631521728 mode=PROTECT
+[RT] run=564 exec_ms=0 lateness_ms=640 gap_ms=740 misses=402 mode=PROTECT healthy_streak=0
+[ML] run=422 repeats=1 total_cycles=631500896 avg_cycles=631500896 mode=PROTECT
+[RT] run=565 exec_ms=0 lateness_ms=580 gap_ms=740 misses=403 mode=PROTECT healthy_streak=0
+[RT] run=566 exec_ms=0 lateness_ms=10 gap_ms=30 misses=403 mode=PROTECT healthy_streak=1
+[ML] run=423 repeats=1 total_cycles=631394208 avg_cycles=631394208 mode=PROTECT
+[RT] run=567 exec_ms=0 lateness_ms=520 gap_ms=710 misses=404 mode=PROTECT healthy_streak=0
+[RT] run=568 exec_ms=0 lateness_ms=10 gap_ms=90 misses=404 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=423 rt_runs=568 rt_misses=404 mode=PROTECT healthy_streak=1
+[ML] run=424 repeats=1 total_cycles=631847936 avg_cycles=631847936 mode=PROTECT
+[RT] run=569 exec_ms=0 lateness_ms=460 gap_ms=650 misses=405 mode=PROTECT healthy_streak=0
+[ML] run=425 repeats=1 total_cycles=631602752 avg_cycles=631602752 mode=PROTECT
+[RT] run=570 exec_ms=0 lateness_ms=600 gap_ms=740 misses=406 mode=PROTECT healthy_streak=0
+[ML] run=426 repeats=1 total_cycles=631399072 avg_cycles=631399072 mode=PROTECT
+[RT] run=571 exec_ms=0 lateness_ms=540 gap_ms=740 misses=407 mode=PROTECT healthy_streak=0
+[RT] run=572 exec_ms=0 lateness_ms=10 gap_ms=70 misses=407 mode=PROTECT healthy_streak=1
+[ML] run=427 repeats=1 total_cycles=631426464 avg_cycles=631426464 mode=PROTECT
+[RT] run=573 exec_ms=0 lateness_ms=480 gap_ms=670 misses=408 mode=PROTECT healthy_streak=0
+[ML] run=428 repeats=1 total_cycles=631561152 avg_cycles=631561152 mode=PROTECT
+[RT] run=574 exec_ms=0 lateness_ms=620 gap_ms=740 misses=409 mode=PROTECT healthy_streak=0
+[ML] run=429 repeats=1 total_cycles=631607872 avg_cycles=631607872 mode=PROTECT
+[RT] run=575 exec_ms=0 lateness_ms=560 gap_ms=740 misses=410 mode=PROTECT healthy_streak=0
+[RT] run=576 exec_ms=0 lateness_ms=10 gap_ms=50 misses=410 mode=PROTECT healthy_streak=1
+[ML] run=430 repeats=1 total_cycles=631571008 avg_cycles=631571008 mode=PROTECT
+[RT] run=577 exec_ms=0 lateness_ms=500 gap_ms=690 misses=411 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=430 rt_runs=577 rt_misses=411 mode=PROTECT healthy_streak=0
+[ML] run=431 repeats=1 total_cycles=631497888 avg_cycles=631497888 mode=PROTECT
+[RT] run=578 exec_ms=0 lateness_ms=640 gap_ms=740 misses=412 mode=PROTECT healthy_streak=0
+[ML] run=432 repeats=1 total_cycles=631571360 avg_cycles=631571360 mode=PROTECT
+[RT] run=579 exec_ms=0 lateness_ms=580 gap_ms=740 misses=413 mode=PROTECT healthy_streak=0
+[RT] run=580 exec_ms=0 lateness_ms=10 gap_ms=30 misses=413 mode=PROTECT healthy_streak=1
+[ML] run=433 repeats=1 total_cycles=631461344 avg_cycles=631461344 mode=PROTECT
+[RT] run=581 exec_ms=0 lateness_ms=520 gap_ms=710 misses=414 mode=PROTECT healthy_streak=0
+[RT] run=582 exec_ms=0 lateness_ms=10 gap_ms=90 misses=414 mode=PROTECT healthy_streak=1
+[ML] run=434 repeats=1 total_cycles=631376992 avg_cycles=631376992 mode=PROTECT
+[RT] run=583 exec_ms=0 lateness_ms=460 gap_ms=650 misses=415 mode=PROTECT healthy_streak=0
+[ML] run=435 repeats=1 total_cycles=631534944 avg_cycles=631534944 mode=PROTECT
+[RT] run=584 exec_ms=0 lateness_ms=600 gap_ms=740 misses=416 mode=PROTECT healthy_streak=0
+[ML] run=436 repeats=1 total_cycles=631550432 avg_cycles=631550432 mode=PROTECT
+[RT] run=585 exec_ms=0 lateness_ms=540 gap_ms=740 misses=417 mode=PROTECT healthy_streak=0
+[RT] run=586 exec_ms=0 lateness_ms=10 gap_ms=70 misses=417 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=436 rt_runs=586 rt_misses=417 mode=PROTECT healthy_streak=1
+[ML] run=437 repeats=1 total_cycles=631847424 avg_cycles=631847424 mode=PROTECT
+[RT] run=587 exec_ms=0 lateness_ms=480 gap_ms=670 misses=418 mode=PROTECT healthy_streak=0
+[ML] run=438 repeats=1 total_cycles=631543008 avg_cycles=631543008 mode=PROTECT
+[RT] run=588 exec_ms=0 lateness_ms=620 gap_ms=740 misses=419 mode=PROTECT healthy_streak=0
+[ML] run=439 repeats=1 total_cycles=631467808 avg_cycles=631467808 mode=PROTECT
+[RT] run=589 exec_ms=0 lateness_ms=560 gap_ms=740 misses=420 mode=PROTECT healthy_streak=0
+[RT] run=590 exec_ms=0 lateness_ms=10 gap_ms=50 misses=420 mode=PROTECT healthy_streak=1
+[ML] run=440 repeats=1 total_cycles=631576512 avg_cycles=631576512 mode=PROTECT
+[RT] run=591 exec_ms=0 lateness_ms=500 gap_ms=690 misses=421 mode=PROTECT healthy_streak=0
+[ML] run=441 repeats=1 total_cycles=631676128 avg_cycles=631676128 mode=PROTECT
+[RT] run=592 exec_ms=0 lateness_ms=640 gap_ms=740 misses=422 mode=PROTECT healthy_streak=0
+[ML] run=442 repeats=1 total_cycles=631535616 avg_cycles=631535616 mode=PROTECT
+[RT] run=593 exec_ms=0 lateness_ms=580 gap_ms=740 misses=423 mode=PROTECT healthy_streak=0
+[RT] run=594 exec_ms=0 lateness_ms=10 gap_ms=30 misses=423 mode=PROTECT healthy_streak=1
+[ML] run=443 repeats=1 total_cycles=631512576 avg_cycles=631512576 mode=PROTECT
+[RT] run=595 exec_ms=0 lateness_ms=520 gap_ms=710 misses=424 mode=PROTECT healthy_streak=0
+[RT] run=596 exec_ms=0 lateness_ms=10 gap_ms=90 misses=424 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=443 rt_runs=596 rt_misses=424 mode=PROTECT healthy_streak=1
+[ML] run=444 repeats=1 total_cycles=631913184 avg_cycles=631913184 mode=PROTECT
+[RT] run=597 exec_ms=0 lateness_ms=460 gap_ms=650 misses=425 mode=PROTECT healthy_streak=0
+[ML] run=445 repeats=1 total_cycles=631554656 avg_cycles=631554656 mode=PROTECT
+[RT] run=598 exec_ms=0 lateness_ms=600 gap_ms=740 misses=426 mode=PROTECT healthy_streak=0
+[ML] run=446 repeats=1 total_cycles=631475200 avg_cycles=631475200 mode=PROTECT
+[RT] run=599 exec_ms=0 lateness_ms=540 gap_ms=740 misses=427 mode=PROTECT healthy_streak=0
+[RT] run=600 exec_ms=0 lateness_ms=10 gap_ms=70 misses=427 mode=PROTECT healthy_streak=1
+[ML] run=447 repeats=1 total_cycles=631583712 avg_cycles=631583712 mode=PROTECT
+[RT] run=601 exec_ms=0 lateness_ms=480 gap_ms=670 misses=428 mode=PROTECT healthy_streak=0
+[ML] run=448 repeats=1 total_cycles=631546656 avg_cycles=631546656 mode=PROTECT
+[RT] run=602 exec_ms=0 lateness_ms=620 gap_ms=740 misses=429 mode=PROTECT healthy_streak=0
+[ML] run=449 repeats=1 total_cycles=631543840 avg_cycles=631543840 mode=PROTECT
+[RT] run=603 exec_ms=0 lateness_ms=560 gap_ms=740 misses=430 mode=PROTECT healthy_streak=0
+[RT] run=604 exec_ms=0 lateness_ms=10 gap_ms=50 misses=430 mode=PROTECT healthy_streak=1
+[ML] run=450 repeats=1 total_cycles=631371296 avg_cycles=631371296 mode=PROTECT
+[RT] run=605 exec_ms=0 lateness_ms=500 gap_ms=690 misses=431 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=450 rt_runs=605 rt_misses=431 mode=PROTECT healthy_streak=0
+[ML] run=451 repeats=1 total_cycles=631885664 avg_cycles=631885664 mode=PROTECT
+[RT] run=606 exec_ms=0 lateness_ms=640 gap_ms=740 misses=432 mode=PROTECT healthy_streak=0
+[ML] run=452 repeats=1 total_cycles=631824768 avg_cycles=631824768 mode=PROTECT
+[RT] run=607 exec_ms=0 lateness_ms=580 gap_ms=740 misses=433 mode=PROTECT healthy_streak=0
+[RT] run=608 exec_ms=0 lateness_ms=10 gap_ms=30 misses=433 mode=PROTECT healthy_streak=1
+[ML] run=453 repeats=1 total_cycles=631578080 avg_cycles=631578080 mode=PROTECT
+[RT] run=609 exec_ms=0 lateness_ms=520 gap_ms=710 misses=434 mode=PROTECT healthy_streak=0
+[RT] run=610 exec_ms=0 lateness_ms=10 gap_ms=90 misses=434 mode=PROTECT healthy_streak=1
+[ML] run=454 repeats=1 total_cycles=631413152 avg_cycles=631413152 mode=PROTECT
+[RT] run=611 exec_ms=0 lateness_ms=460 gap_ms=650 misses=435 mode=PROTECT healthy_streak=0
+[ML] run=455 repeats=1 total_cycles=631474528 avg_cycles=631474528 mode=PROTECT
+[RT] run=612 exec_ms=0 lateness_ms=600 gap_ms=740 misses=436 mode=PROTECT healthy_streak=0
+[ML] run=456 repeats=1 total_cycles=631501184 avg_cycles=631501184 mode=PROTECT
+[RT] run=613 exec_ms=0 lateness_ms=540 gap_ms=740 misses=437 mode=PROTECT healthy_streak=0
+[RT] run=614 exec_ms=0 lateness_ms=10 gap_ms=70 misses=437 mode=PROTECT healthy_streak=1
+[ML] run=457 repeats=1 total_cycles=631522528 avg_cycles=631522528 mode=PROTECT
+[RT] run=615 exec_ms=0 lateness_ms=480 gap_ms=670 misses=438 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=457 rt_runs=615 rt_misses=438 mode=PROTECT healthy_streak=0
+[ML] run=458 repeats=1 total_cycles=631854528 avg_cycles=631854528 mode=PROTECT
+[RT] run=616 exec_ms=0 lateness_ms=620 gap_ms=740 misses=439 mode=PROTECT healthy_streak=0
+[ML] run=459 repeats=1 total_cycles=631592896 avg_cycles=631592896 mode=PROTECT
+[RT] run=617 exec_ms=0 lateness_ms=560 gap_ms=740 misses=440 mode=PROTECT healthy_streak=0
+[RT] run=618 exec_ms=0 lateness_ms=10 gap_ms=50 misses=440 mode=PROTECT healthy_streak=1
+[ML] run=460 repeats=1 total_cycles=631462464 avg_cycles=631462464 mode=PROTECT
+[RT] run=619 exec_ms=0 lateness_ms=500 gap_ms=690 misses=441 mode=PROTECT healthy_streak=0
+[ML] run=461 repeats=1 total_cycles=631494912 avg_cycles=631494912 mode=PROTECT
+[RT] run=620 exec_ms=0 lateness_ms=640 gap_ms=740 misses=442 mode=PROTECT healthy_streak=0
+[ML] run=462 repeats=1 total_cycles=631486144 avg_cycles=631486144 mode=PROTECT
+[RT] run=621 exec_ms=0 lateness_ms=580 gap_ms=740 misses=443 mode=PROTECT healthy_streak=0
+[RT] run=622 exec_ms=0 lateness_ms=10 gap_ms=30 misses=443 mode=PROTECT healthy_streak=1
+[ML] run=463 repeats=1 total_cycles=631565888 avg_cycles=631565888 mode=PROTECT
+[RT] run=623 exec_ms=0 lateness_ms=520 gap_ms=710 misses=444 mode=PROTECT healthy_streak=0
+[RT] run=624 exec_ms=0 lateness_ms=10 gap_ms=90 misses=444 mode=PROTECT healthy_streak=1
+[SUMMARY] ml_runs=463 rt_runs=624 rt_misses=444 mode=PROTECT healthy_streak=1
+[ML] run=464 repeats=1 total_cycles=632018048 avg_cycles=632018048 mode=PROTECT
+[RT] run=625 exec_ms=0 lateness_ms=460 gap_ms=650 misses=445 mode=PROTECT healthy_streak=0
+[ML] run=465 repeats=1 total_cycles=631675872 avg_cycles=631675872 mode=PROTECT
+[RT] run=626 exec_ms=0 lateness_ms=600 gap_ms=740 misses=446 mode=PROTECT healthy_streak=0
+[ML] run=466 repeats=1 total_cycles=631405568 avg_cycles=631405568 mode=PROTECT
+[RT] run=627 exec_ms=0 lateness_ms=540 gap_ms=740 misses=447 mode=PROTECT healthy_streak=0
+[RT] run=628 exec_ms=0 lateness_ms=10 gap_ms=70 misses=447 mode=PROTECT healthy_streak=1
+[ML] run=467 repeats=1 total_cycles=631498944 avg_cycles=631498944 mode=PROTECT
+[RT] run=629 exec_ms=0 lateness_ms=480 gap_ms=670 misses=448 mode=PROTECT healthy_streak=0
+[ML] run=468 repeats=1 total_cycles=631634112 avg_cycles=631634112 mode=PROTECT
+[RT] run=630 exec_ms=0 lateness_ms=620 gap_ms=740 misses=449 mode=PROTECT healthy_streak=0
+[ML] run=469 repeats=1 total_cycles=631584896 avg_cycles=631584896 mode=PROTECT
+[RT] run=631 exec_ms=0 lateness_ms=560 gap_ms=740 misses=450 mode=PROTECT healthy_streak=0
+[RT] run=632 exec_ms=0 lateness_ms=10 gap_ms=50 misses=450 mode=PROTECT healthy_streak=1
+[ML] run=470 repeats=1 total_cycles=631571040 avg_cycles=631571040 mode=PROTECT
+[RT] run=633 exec_ms=0 lateness_ms=500 gap_ms=690 misses=451 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=470 rt_runs=633 rt_misses=451 mode=PROTECT healthy_streak=0
+[ML] run=471 repeats=1 total_cycles=632036992 avg_cycles=632036992 mode=PROTECT
+[RT] run=634 exec_ms=0 lateness_ms=640 gap_ms=740 misses=452 mode=PROTECT healthy_streak=0
+[ML] run=472 repeats=1 total_cycles=631635712 avg_cycles=631635712 mode=PROTECT
+[RT] run=635 exec_ms=0 lateness_ms=580 gap_ms=740 misses=453 mode=PROTECT healthy_streak=0
+[RT] run=636 exec_ms=0 lateness_ms=10 gap_ms=30 misses=453 mode=PROTECT healthy_streak=1
+[ML] run=473 repeats=1 total_cycles=631666432 avg_cycles=631666432 mode=PROTECT
+[RT] run=637 exec_ms=0 lateness_ms=520 gap_ms=710 misses=454 mode=PROTECT healthy_streak=0
+[RT] run=638 exec_ms=0 lateness_ms=10 gap_ms=90 misses=454 mode=PROTECT healthy_streak=1
+[ML] run=474 repeats=1 total_cycles=631704416 avg_cycles=631704416 mode=PROTECT
+[RT] run=639 exec_ms=0 lateness_ms=460 gap_ms=650 misses=455 mode=PROTECT healthy_streak=0
+[ML] run=475 repeats=1 total_cycles=631781536 avg_cycles=631781536 mode=PROTECT
+[RT] run=640 exec_ms=0 lateness_ms=600 gap_ms=740 misses=456 mode=PROTECT healthy_streak=0
+[ML] run=476 repeats=1 total_cycles=631741856 avg_cycles=631741856 mode=PROTECT
+[RT] run=641 exec_ms=0 lateness_ms=540 gap_ms=740 misses=457 mode=PROTECT healthy_streak=0
+[RT] run=642 exec_ms=0 lateness_ms=10 gap_ms=70 misses=457 mode=PROTECT healthy_streak=1
+[ML] run=477 repeats=1 total_cycles=631754528 avg_cycles=631754528 mode=PROTECT
+[RT] run=643 exec_ms=0 lateness_ms=480 gap_ms=670 misses=458 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=477 rt_runs=643 rt_misses=458 mode=PROTECT healthy_streak=0
+[ML] run=478 repeats=1 total_cycles=631890496 avg_cycles=631890496 mode=PROTECT
+[RT] run=644 exec_ms=0 lateness_ms=620 gap_ms=740 misses=459 mode=PROTECT healthy_streak=0
+[ML] run=479 repeats=1 total_cycles=631706912 avg_cycles=631706912 mode=PROTECT
+[RT] run=645 exec_ms=0 lateness_ms=560 gap_ms=740 misses=460 mode=PROTECT healthy_streak=0
+[RT] run=646 exec_ms=0 lateness_ms=10 gap_ms=50 misses=460 mode=PROTECT healthy_streak=1
+[ML] run=480 repeats=1 total_cycles=631733536 avg_cycles=631733536 mode=PROTECT
+[RT] run=647 exec_ms=0 lateness_ms=500 gap_ms=690 misses=461 mode=PROTECT healthy_streak=0
+[ML] run=481 repeats=1 total_cycles=631664128 avg_cycles=631664128 mode=PROTECT
+[RT] run=648 exec_ms=0 lateness_ms=640 gap_ms=740 misses=462 mode=PROTECT healthy_streak=0
+[ML] run=482 repeats=1 total_cycles=631521536 avg_cycles=631521536 mode=PROTECT
+[RT] run=649 exec_ms=0 lateness_ms=580 gap_ms=740 misses=463 mode=PROTECT healthy_streak=0
+[RT] run=650 exec_ms=0 lateness_ms=10 gap_ms=30 misses=463 mode=PROTECT healthy_streak=1
+[ML] run=483 repeats=1 total_cycles=631582688 avg_cycles=631582688 mode=PROTECT
+[RT] run=651 exec_ms=0 lateness_ms=520 gap_ms=710 misses=464 mode=PROTECT healthy_streak=0
+[RT] run=652 exec_ms=0 lateness_ms=10 gap_ms=90 misses=464 mode=PROTECT healthy_streak=1
+[ML] run=484 repeats=1 total_cycles=631621536 avg_cycles=631621536 mode=PROTECT
+[RT] run=653 exec_ms=0 lateness_ms=460 gap_ms=650 misses=465 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=484 rt_runs=653 rt_misses=465 mode=PROTECT healthy_streak=0
+[ML] run=485 repeats=1 total_cycles=632484480 avg_cycles=632484480 mode=PROTECT
+[RT] run=654 exec_ms=0 lateness_ms=600 gap_ms=740 misses=466 mode=PROTECT healthy_streak=0
+[ML] run=486 repeats=1 total_cycles=632133312 avg_cycles=632133312 mode=PROTECT
+[RT] run=655 exec_ms=0 lateness_ms=540 gap_ms=740 misses=467 mode=PROTECT healthy_streak=0
+[RT] run=656 exec_ms=0 lateness_ms=10 gap_ms=70 misses=467 mode=PROTECT healthy_streak=1
+[ML] run=487 repeats=1 total_cycles=632187136 avg_cycles=632187136 mode=PROTECT
+[RT] run=657 exec_ms=0 lateness_ms=480 gap_ms=670 misses=468 mode=PROTECT healthy_streak=0
+[ML] run=488 repeats=1 total_cycles=632440704 avg_cycles=632440704 mode=PROTECT
+[RT] run=658 exec_ms=0 lateness_ms=620 gap_ms=740 misses=469 mode=PROTECT healthy_streak=0
+[ML] run=489 repeats=1 total_cycles=631436032 avg_cycles=631436032 mode=PROTECT
+[RT] run=659 exec_ms=0 lateness_ms=560 gap_ms=740 misses=470 mode=PROTECT healthy_streak=0
+[RT] run=660 exec_ms=0 lateness_ms=10 gap_ms=50 misses=470 mode=PROTECT healthy_streak=1
+[ML] run=490 repeats=1 total_cycles=631553568 avg_cycles=631553568 mode=PROTECT
+[RT] run=661 exec_ms=0 lateness_ms=500 gap_ms=690 misses=471 mode=PROTECT healthy_streak=0
+[ML] run=491 repeats=1 total_cycles=631577184 avg_cycles=631577184 mode=PROTECT
+[RT] run=662 exec_ms=0 lateness_ms=640 gap_ms=740 misses=472 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=491 rt_runs=662 rt_misses=472 mode=PROTECT healthy_streak=0
+[ML] run=492 repeats=1 total_cycles=631607072 avg_cycles=631607072 mode=PROTECT
+[RT] run=663 exec_ms=0 lateness_ms=580 gap_ms=740 misses=473 mode=PROTECT healthy_streak=0
+[RT] run=664 exec_ms=0 lateness_ms=10 gap_ms=30 misses=473 mode=PROTECT healthy_streak=1
+[ML] run=493 repeats=1 total_cycles=631451712 avg_cycles=631451712 mode=PROTECT
+[RT] run=665 exec_ms=0 lateness_ms=520 gap_ms=710 misses=474 mode=PROTECT healthy_streak=0
+[RT] run=666 exec_ms=0 lateness_ms=10 gap_ms=90 misses=474 mode=PROTECT healthy_streak=1
+[ML] run=494 repeats=1 total_cycles=631306656 avg_cycles=631306656 mode=PROTECT
+[RT] run=667 exec_ms=0 lateness_ms=460 gap_ms=650 misses=475 mode=PROTECT healthy_streak=0
+[ML] run=495 repeats=1 total_cycles=631433120 avg_cycles=631433120 mode=PROTECT
+[RT] run=668 exec_ms=0 lateness_ms=600 gap_ms=740 misses=476 mode=PROTECT healthy_streak=0
+[ML] run=496 repeats=1 total_cycles=631425536 avg_cycles=631425536 mode=PROTECT
+[RT] run=669 exec_ms=0 lateness_ms=540 gap_ms=740 misses=477 mode=PROTECT healthy_streak=0
+[RT] run=670 exec_ms=0 lateness_ms=10 gap_ms=70 misses=477 mode=PROTECT healthy_streak=1
+[ML] run=497 repeats=1 total_cycles=631473312 avg_cycles=631473312 mode=PROTECT
+[RT] run=671 exec_ms=0 lateness_ms=480 gap_ms=670 misses=478 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=497 rt_runs=671 rt_misses=478 mode=PROTECT healthy_streak=0
+[ML] run=498 repeats=1 total_cycles=631902624 avg_cycles=631902624 mode=PROTECT
+[RT] run=672 exec_ms=0 lateness_ms=620 gap_ms=740 misses=479 mode=PROTECT healthy_streak=0
+[ML] run=499 repeats=1 total_cycles=631512352 avg_cycles=631512352 mode=PROTECT
+[RT] run=673 exec_ms=0 lateness_ms=560 gap_ms=740 misses=480 mode=PROTECT healthy_streak=0
+[RT] run=674 exec_ms=0 lateness_ms=10 gap_ms=50 misses=480 mode=PROTECT healthy_streak=1
+[ML] run=500 repeats=1 total_cycles=631475648 avg_cycles=631475648 mode=PROTECT
+[RT] run=675 exec_ms=0 lateness_ms=500 gap_ms=690 misses=481 mode=PROTECT healthy_streak=0
+[ML] run=501 repeats=1 total_cycles=631467104 avg_cycles=631467104 mode=PROTECT
+[RT] run=676 exec_ms=0 lateness_ms=640 gap_ms=740 misses=482 mode=PROTECT healthy_streak=0
+[ML] run=502 repeats=1 total_cycles=631416256 avg_cycles=631416256 mode=PROTECT
+[RT] run=677 exec_ms=0 lateness_ms=580 gap_ms=740 misses=483 mode=PROTECT healthy_streak=0
+[RT] run=678 exec_ms=0 lateness_ms=10 gap_ms=30 misses=483 mode=PROTECT healthy_streak=1
+[ML] run=503 repeats=1 total_cycles=632493152 avg_cycles=632493152 mode=PROTECT
+[RT] run=679 exec_ms=0 lateness_ms=520 gap_ms=710 misses=484 mode=PROTECT healthy_streak=0
+[RT] run=680 exec_ms=0 lateness_ms=10 gap_ms=90 misses=484 mode=PROTECT healthy_streak=1
+[ML] run=504 repeats=1 total_cycles=636077888 avg_cycles=636077888 mode=PROTECT
+[RT] run=681 exec_ms=10 lateness_ms=460 gap_ms=650 misses=485 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=504 rt_runs=681 rt_misses=485 mode=PROTECT healthy_streak=0
+[ML] run=505 repeats=1 total_cycles=636237152 avg_cycles=636237152 mode=PROTECT
+[RT] run=682 exec_ms=10 lateness_ms=600 gap_ms=740 misses=486 mode=PROTECT healthy_streak=0
+[ML] run=506 repeats=1 total_cycles=635878848 avg_cycles=635878848 mode=PROTECT
+[RT] run=683 exec_ms=10 lateness_ms=540 gap_ms=740 misses=487 mode=PROTECT healthy_streak=0
+[RT] run=684 exec_ms=0 lateness_ms=10 gap_ms=70 misses=487 mode=PROTECT healthy_streak=1
+[ML] run=507 repeats=1 total_cycles=636137024 avg_cycles=636137024 mode=PROTECT
+[RT] run=685 exec_ms=10 lateness_ms=480 gap_ms=670 misses=488 mode=PROTECT healthy_streak=0
+[ML] run=508 repeats=1 total_cycles=636055872 avg_cycles=636055872 mode=PROTECT
+[RT] run=686 exec_ms=10 lateness_ms=620 gap_ms=740 misses=489 mode=PROTECT healthy_streak=0
+[ML] run=509 repeats=1 total_cycles=636105504 avg_cycles=636105504 mode=PROTECT
+[RT] run=687 exec_ms=10 lateness_ms=560 gap_ms=740 misses=490 mode=PROTECT healthy_streak=0
+[RT] run=688 exec_ms=0 lateness_ms=10 gap_ms=50 misses=490 mode=PROTECT healthy_streak=1
+[ML] run=510 repeats=1 total_cycles=636219264 avg_cycles=636219264 mode=PROTECT
+[RT] run=689 exec_ms=10 lateness_ms=500 gap_ms=690 misses=491 mode=PROTECT healthy_streak=0
+[ML] run=511 repeats=1 total_cycles=635897632 avg_cycles=635897632 mode=PROTECT
+[RT] run=690 exec_ms=10 lateness_ms=640 gap_ms=740 misses=492 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=511 rt_runs=690 rt_misses=492 mode=PROTECT healthy_streak=0
+[ML] run=512 repeats=1 total_cycles=636382208 avg_cycles=636382208 mode=PROTECT
+[RT] run=691 exec_ms=10 lateness_ms=580 gap_ms=740 misses=493 mode=PROTECT healthy_streak=0
+[RT] run=692 exec_ms=0 lateness_ms=10 gap_ms=30 misses=493 mode=PROTECT healthy_streak=1
+[ML] run=513 repeats=1 total_cycles=636150144 avg_cycles=636150144 mode=PROTECT
+[RT] run=693 exec_ms=10 lateness_ms=520 gap_ms=710 misses=494 mode=PROTECT healthy_streak=0
+[RT] run=694 exec_ms=0 lateness_ms=10 gap_ms=90 misses=494 mode=PROTECT healthy_streak=1
+[ML] run=514 repeats=1 total_cycles=636222496 avg_cycles=636222496 mode=PROTECT
+[RT] run=695 exec_ms=10 lateness_ms=460 gap_ms=650 misses=495 mode=PROTECT healthy_streak=0
+[ML] run=515 repeats=1 total_cycles=636125888 avg_cycles=636125888 mode=PROTECT
+[RT] run=696 exec_ms=10 lateness_ms=600 gap_ms=740 misses=496 mode=PROTECT healthy_streak=0
+[ML] run=516 repeats=1 total_cycles=635927520 avg_cycles=635927520 mode=PROTECT
+[RT] run=697 exec_ms=10 lateness_ms=540 gap_ms=740 misses=497 mode=PROTECT healthy_streak=0
+[RT] run=698 exec_ms=0 lateness_ms=10 gap_ms=70 misses=497 mode=PROTECT healthy_streak=1
+[ML] run=517 repeats=1 total_cycles=636049184 avg_cycles=636049184 mode=PROTECT
+[RT] run=699 exec_ms=10 lateness_ms=480 gap_ms=670 misses=498 mode=PROTECT healthy_streak=0
+[ML] run=518 repeats=1 total_cycles=636123648 avg_cycles=636123648 mode=PROTECT
+[RT] run=700 exec_ms=10 lateness_ms=620 gap_ms=740 misses=499 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=518 rt_runs=700 rt_misses=499 mode=PROTECT healthy_streak=0
+[ML] run=519 repeats=1 total_cycles=636116992 avg_cycles=636116992 mode=PROTECT
+[RT] run=701 exec_ms=10 lateness_ms=560 gap_ms=740 misses=500 mode=PROTECT healthy_streak=0
+[RT] run=702 exec_ms=0 lateness_ms=10 gap_ms=50 misses=500 mode=PROTECT healthy_streak=1
+[ML] run=520 repeats=1 total_cycles=636156832 avg_cycles=636156832 mode=PROTECT
+[RT] run=703 exec_ms=10 lateness_ms=500 gap_ms=690 misses=501 mode=PROTECT healthy_streak=0
+[ML] run=521 repeats=1 total_cycles=636064000 avg_cycles=636064000 mode=PROTECT
+[RT] run=704 exec_ms=10 lateness_ms=640 gap_ms=740 misses=502 mode=PROTECT healthy_streak=0
+[ML] run=522 repeats=1 total_cycles=636016960 avg_cycles=636016960 mode=PROTECT
+[RT] run=705 exec_ms=10 lateness_ms=580 gap_ms=740 misses=503 mode=PROTECT healthy_streak=0
+[RT] run=706 exec_ms=0 lateness_ms=10 gap_ms=30 misses=503 mode=PROTECT healthy_streak=1
+[ML] run=523 repeats=1 total_cycles=636071040 avg_cycles=636071040 mode=PROTECT
+[RT] run=707 exec_ms=10 lateness_ms=520 gap_ms=710 misses=504 mode=PROTECT healthy_streak=0
+[RT] run=708 exec_ms=0 lateness_ms=10 gap_ms=90 misses=504 mode=PROTECT healthy_streak=1
+[ML] run=524 repeats=1 total_cycles=636252896 avg_cycles=636252896 mode=PROTECT
+[RT] run=709 exec_ms=10 lateness_ms=460 gap_ms=650 misses=505 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=524 rt_runs=709 rt_misses=505 mode=PROTECT healthy_streak=0
+[ML] run=525 repeats=1 total_cycles=636394976 avg_cycles=636394976 mode=PROTECT
+[RT] run=710 exec_ms=10 lateness_ms=600 gap_ms=740 misses=506 mode=PROTECT healthy_streak=0
+[ML] run=526 repeats=1 total_cycles=635977056 avg_cycles=635977056 mode=PROTECT
+[RT] run=711 exec_ms=10 lateness_ms=540 gap_ms=740 misses=507 mode=PROTECT healthy_streak=0
+[RT] run=712 exec_ms=0 lateness_ms=10 gap_ms=70 misses=507 mode=PROTECT healthy_streak=1
+[ML] run=527 repeats=1 total_cycles=636022848 avg_cycles=636022848 mode=PROTECT
+[RT] run=713 exec_ms=10 lateness_ms=480 gap_ms=670 misses=508 mode=PROTECT healthy_streak=0
+[ML] run=528 repeats=1 total_cycles=635957920 avg_cycles=635957920 mode=PROTECT
+[RT] run=714 exec_ms=10 lateness_ms=620 gap_ms=740 misses=509 mode=PROTECT healthy_streak=0
+[ML] run=529 repeats=1 total_cycles=636123584 avg_cycles=636123584 mode=PROTECT
+[RT] run=715 exec_ms=10 lateness_ms=560 gap_ms=740 misses=510 mode=PROTECT healthy_streak=0
+[RT] run=716 exec_ms=0 lateness_ms=10 gap_ms=50 misses=510 mode=PROTECT healthy_streak=1
+[ML] run=530 repeats=1 total_cycles=636243136 avg_cycles=636243136 mode=PROTECT
+[RT] run=717 exec_ms=10 lateness_ms=500 gap_ms=690 misses=511 mode=PROTECT healthy_streak=0
+[ML] run=531 repeats=1 total_cycles=635942272 avg_cycles=635942272 mode=PROTECT
+[RT] run=718 exec_ms=10 lateness_ms=640 gap_ms=740 misses=512 mode=PROTECT healthy_streak=0
+[SUMMARY] ml_runs=531 rt_runs=718 rt_misses=512 mode=PROTECT healthy_streak=0
+[ML] run=532 repeats=1 total_cycles=636564640 avg_cycles=636564640 mode=PROTECT
+[RT] run=719 exec_ms=10 lateness_ms=580 gap_ms=740 misses=513 mode=PROTECT healthy_streak=0
+[RT] run=720 exec_ms=0 lateness_ms=10 gap_ms=30 misses=513 mode=PROTECT healthy_streak=1
+[ML] run=533 repeats=1 total_cycles=636114400 avg_cycles=636114400 mode=PROTECT
+[RT] run=721 exec_ms=10 lateness_ms=520 gap_ms=710 misses=514 mode=PROTECT healthy_streak=0
+[RT] run=722 exec_ms=0 lateness_ms=10 gap_ms=90 misses=514 mode=PROTECT healthy_streak=1
+[ML] run=534 repeats=1 total_cycles=636297696 avg_cycles=636297696 mode=PROTECT
+[RT] run=723 exec_ms=10 lateness_ms=460 gap_ms=650 misses=515 mode=PROTECT healthy_streak=0
+[ML] run=535 repeats=1 total_cycles=636092640 avg_cycles=636092640 mode=PROTECT
+[RT] run=724 exec_ms=10 lateness_ms=600 gap_ms=740 misses=516 mode=PROTECT healthy_streak=0
+[ML] run=536 repeats=1 total_cycles=636027936 avg_cycles=636027936 mode=PROTECT
+[RT] run=725 exec_ms=10 lateness_ms=540 gap_ms=740 misses=517 mode=PROTECT healthy_streak=0
+[RT] run=726 exec_ms=0 lateness_ms=10 gap_ms=70 misses=517 mode=PROTECT healthy_streak=1
+[ML] run=537 repeats=1 total_cycles=636273888 avg_cycles=636273888 mode=PROTECT
+[RT] run=727 exec_ms=10 lateness_ms=480 gap_ms=670 misses=518 mode=PROTECT healthy_streak=0
+[ML] run=538 repeats=1 total_cycles=636181984 avg_cycles=636181984 mode=PROTECT
+[RT] run=728 exec_ms=10 lateness_ms=620 gap_ms=740 misses=519 mode=PROTECT healthy_streak=0

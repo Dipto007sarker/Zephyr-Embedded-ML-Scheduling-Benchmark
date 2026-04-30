@@ -1,0 +1,8 @@
+[manifest]
+path = zephyr
+file = west.yml
+project-filter = +tflite-micro
+
+[zephyr]
+base = /home/fhh758/zephyrproject/zephyr
+

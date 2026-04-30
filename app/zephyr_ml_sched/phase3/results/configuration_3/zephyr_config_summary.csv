@@ -1,0 +1,2 @@
+config,trials,mean_final_ml_runs,std_final_ml_runs,mean_final_rt_runs,std_final_rt_runs,mean_final_rt_misses,std_final_rt_misses,mean_avg_rt_exec_ms,std_avg_rt_exec_ms,mean_avg_rt_lateness_ms,std_avg_rt_lateness_ms,mean_max_rt_lateness_ms,mean_avg_rt_gap_ms,std_avg_rt_gap_ms,mean_max_rt_gap_ms,mean_avg_ml_cycles,std_avg_ml_cycles
+equal_with_deadline,5,8684.0,0.0,1302.0,0.0,0.0,0.0,3.3368729150987924,0.0013915490973979432,9.992419617934004,1.6960705921746693e-05,10.0,200.007580382066,1.6960705910440464e-05,410.0,379321.2081683808,0.0004436327958827168

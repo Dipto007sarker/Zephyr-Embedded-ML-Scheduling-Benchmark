@@ -1,0 +1,6 @@
+file,config,trial,final_ml_runs,final_rt_runs,final_rt_misses,avg_rt_exec_ms,max_rt_exec_ms,avg_rt_lateness_ms,max_rt_lateness_ms,avg_rt_gap_ms,max_rt_gap_ms,avg_ml_cycles,max_ml_cycles,n_rt_lines,n_ml_lines
+run_equal_priority_baseline_no_deadline_1.txt,equal_no_deadline,1,8630,1327,0,0.0,0,9.992503748125937,10,200.00749625187407,410,379482.7786488356,647297,1334,8674
+run_equal_priority_baseline_no_deadline_2.txt,equal_no_deadline,2,8630,1327,0,0.0,0,9.992464204973624,10,200.00753579502637,410,379483.0034758429,647297,1327,8631
+run_equal_priority_baseline_no_deadline_3.txt,equal_no_deadline,3,8467,1302,0,0.0,0,9.992447129909365,10,200.00755287009062,410,379482.9537907814,647297,1324,8613
+run_equal_priority_baseline_no_deadline_4.txt,equal_no_deadline,4,8630,1327,0,0.0,0,9.992481203007518,10,200.00751879699249,410,379482.82221708476,647297,1330,8651
+run_equal_priority_baseline_no_deadline_5.txt,equal_no_deadline,5,8467,1302,0,0.0,0,9.992458521870287,10,200.00754147812972,410,379483.0162412993,647297,1326,8620

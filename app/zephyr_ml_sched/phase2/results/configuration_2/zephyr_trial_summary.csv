@@ -1,0 +1,6 @@
+file,config,trial,final_ml_runs,final_rt_runs,final_rt_misses,avg_rt_exec_ms,max_rt_exec_ms,avg_rt_lateness_ms,max_rt_lateness_ms,avg_rt_gap_ms,max_rt_gap_ms,avg_ml_cycles,max_ml_cycles,n_rt_lines,n_ml_lines
+run_equal_priority_baseline_no_deadline_1.txt,equal_no_deadline,1,8183,1227,0,0.008084074373484237,10,9.991915925626516,10,200.00808407437347,410,379619.18797721487,381824,1237,8251
+run_equal_priority_baseline_no_deadline_2.txt,equal_no_deadline,2,8350,1252,0,0.007855459544383346,10,9.992144540455616,10,200.00785545954437,410,379618.7521206409,381824,1273,8488
+run_equal_priority_baseline_no_deadline_3.txt,equal_no_deadline,3,8517,1277,0,0.007830853563038372,10,9.99216914643696,10,200.00783085356304,410,379620.2826954684,381824,1277,8518
+run_equal_priority_baseline_no_deadline_4.txt,equal_no_deadline,4,8350,1252,0,0.007849293563579277,10,9.992150706436421,10,200.00784929356357,410,379617.6788613104,381824,1274,8501
+run_equal_priority_baseline_no_deadline_5.txt,equal_no_deadline,5,8350,1252,0,0.007836990595611285,10,9.992163009404388,10,200.00783699059562,410,379619.2376028202,381824,1276,8510

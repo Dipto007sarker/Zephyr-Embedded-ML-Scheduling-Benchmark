@@ -1,0 +1,6 @@
+file,config,trial,final_ml_runs,final_rt_runs,final_rt_misses,avg_rt_exec_ms,max_rt_exec_ms,avg_rt_lateness_ms,max_rt_lateness_ms,avg_rt_gap_ms,max_rt_gap_ms,avg_ml_cycles,max_ml_cycles,n_rt_lines,n_ml_lines
+run_equal_priority_baseline_with_deadline_1.txt,equal_with_deadline,1,1235,1234,0,10.0,10,149.91961414790995,200,300.0,600,278750816.33413655,279038432,1244,1245
+run_equal_priority_baseline_with_deadline_2.txt,equal_with_deadline,2,1269,1268,0,10.0,10,149.88235294117646,200,300.0,600,278750697.0783699,279038432,1275,1276
+run_equal_priority_baseline_with_deadline_3.txt,equal_with_deadline,3,1269,1268,0,10.0,10,149.88198269079464,200,300.0,600,278750757.081761,279038432,1271,1272
+run_equal_priority_baseline_with_deadline_4.txt,equal_with_deadline,4,1235,1234,0,10.0,10,149.9190938511327,200,300.0,600,278750940.5076799,279038432,1236,1237
+run_equal_priority_baseline_with_deadline_5.txt,equal_with_deadline,5,1269,1268,0,10.0,10,149.92138364779873,200,300.0,600,278750727.03296703,279038432,1272,1274

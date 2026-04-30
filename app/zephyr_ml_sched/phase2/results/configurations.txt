@@ -1,0 +1,6 @@
+Priority baseline
+RT_PRIO=2, ML_PRIO=4, no deadline calls
+Equal priority, no deadline
+RT_PRIO=4, ML_PRIO=4, no deadline calls
+Equal priority, with deadline
+RT_PRIO=4, ML_PRIO=4, enable:
